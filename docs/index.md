@@ -1,5 +1,4 @@
 # Welcome to alican.de
 
-Diese Seite wird aus den Markdown Dokumentationen aus dieser Repo generiert und stellt unterschiedliche nützliche Dinge bereit.
-
+Diese Seite wird aus den Markdown dieses Repos generiert und stellt unterschiedliche nützliche Dinge bereit.
 
