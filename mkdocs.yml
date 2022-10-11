@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: alican.de
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - About: about.md
+  - Dev: dev.md
