@@ -1,6 +1,7 @@
 site_name: alican.de
 repo_url: https://github.com/alican/alican.github.io
 edit_uri: edit/master/docs/
+site_url: https://alican.de/
 theme:
   name: material
   palette:
