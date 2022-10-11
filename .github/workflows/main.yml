@@ -14,4 +14,6 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material pillow cairosvg
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y libcairo2-dev freetype libffi libjpeg libpng zlib
       - run: mkdocs gh-deploy --force
