@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alican Toprak</title><link>https://alican.de/</link><description>Recent content on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 17 Oct 2022 23:13:46 +0200</lastBuildDate><atom:link href="https://alican.de/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World2</title><link>https://alican.de/post/hello-world2/</link><pubDate>Mon, 17 Oct 2022 23:13:46 +0200</pubDate><guid>https://alican.de/post/hello-world2/</guid><description/></item><item><title>Hello World</title><link>https://alican.de/post/hello/hello-world/</link><pubDate>Mon, 17 Oct 2022 22:48:08 +0200</pubDate><guid>https://alican.de/post/hello/hello-world/</guid><description>&lt;p>asd&lt;/p>
+&lt;p>&lt;img src="https://alican.de/_MG_4585.jpg"
+loading="lazy"
+alt="_MG_4585"
+>&lt;/p></description></item><item><title/><link>https://alican.de/docs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/docs/</guid><description>&lt;h1 id="welcome-to-alicande">Welcome to alican.de&lt;/h1>
+&lt;p>Diese Seite wird aus den Markdown dieses Repos generiert und stellt unterschiedliche nützliche Dinge bereit.&lt;/p>
+&lt;h1 id="content">Content&lt;/h1>
+&lt;ul>
+&lt;li>Terraform&lt;/li>
+&lt;li>Kubernetes/helm&lt;/li>
+&lt;li>docker&lt;/li>
+&lt;li>mkdocs&lt;/li>
+&lt;li>Homebrew&lt;/li>
+&lt;li>Blockchain&lt;/li>
+&lt;li>oh my zch&lt;/li>
+&lt;li>VS Code&lt;/li>
+&lt;li>git&lt;/li>
+&lt;li>django&lt;/li>
+&lt;li>ssh&lt;/li>
+&lt;li>python&lt;/li>
+&lt;li>java&lt;/li>
+&lt;li>angular&lt;/li>
+&lt;li>typescript&lt;/li>
+&lt;li>nginx&lt;/li>
+&lt;/ul>
+&lt;h2 id="other">other&lt;/h2>
+&lt;ul>
+&lt;li>3d printing&lt;/li>
+&lt;li>coffee&lt;/li>
+&lt;li>woodworking&lt;/li>
+&lt;/ul></description></item></channel></rss>
