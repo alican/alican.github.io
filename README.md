@@ -1,1 +1,1 @@
-Automatically created through mkdocs and github actions. 
+Automatically created through hugo and github actions. 
