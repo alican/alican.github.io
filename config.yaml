@@ -1,0 +1,37 @@
+baseURL: 'https://alican.de/'
+languageCode: 'en-us'
+title: 'Alican Toprak'
+theme: "stack"
+
+
+### Custom menu
+### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
+### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
+menu:
+    main: 
+      - name: about
+
+
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/alican/
+          params:
+              icon: brand-github
+
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com
+          params:
+              icon: brand-twitter
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+        - name: categories
+          weight: 200
