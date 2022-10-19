@@ -3,7 +3,7 @@ languageCode: 'en-us'
 title: 'Alican Toprak'
 theme: "stack"
 
-
+enableGitInfo: true
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
@@ -40,3 +40,26 @@ related:
 
         - name: categories
           weight: 200
+params:
+    article:
+            math: true
+            toc: true
+            readingTime: true
+            license:
+                enabled: false
+                default: Licensed under CC BY-NC-SA 4.0
+    footer:
+        customText: Hi
+    sidebar:
+        compact: false
+        emoji: 
+        subtitle: Software Engineer from Frankfurt
+        avatar:
+            enabled: true
+            src: "img/avater.png"
+            local: true
+    imageProcessing:
+        cover:
+            enabled: true
+        content:
+            enabled: true
