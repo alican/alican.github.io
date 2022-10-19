@@ -10,7 +10,9 @@ theme: "stack"
 menu:
     main: 
       - name: about
-        name: git
+        url: /about/
+      - name: git
+        url: /git/
 
 
     social:
