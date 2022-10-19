@@ -9,9 +9,11 @@ theme: "stack"
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
     main: 
-      - name: about
+      - identifier: about
+        name: about
         url: /about/
-      - name: git
+      - identifier: git
+        name: git
         url: /git/
 
 
