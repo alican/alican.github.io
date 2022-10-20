@@ -41,6 +41,7 @@ related:
         - name: categories
           weight: 200
 params:
+    editURL: https://github.com/alican/alican.github.io/tree/master/content/
     article:
             math: true
             toc: true
