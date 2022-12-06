@@ -27,6 +27,13 @@ Transfer the pub key to remote host. Typicall its located at ```/home/$USERNAME/
 
 ```ssh-copy-id -i ~/.ssh/alican.ed25519.pub alican@example.com```
 
+If you the ssh keys manually, be sure that the files have the correct permissions:
+
+```
+chmod 700 .ssh
+chmod 600 ~/.ssh/authorized_keys
+```
+
 Login SSH with an explicit key
 ssh -i ~/.ssh/alican.ed25519 alican@example.com
 
