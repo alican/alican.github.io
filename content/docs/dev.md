@@ -17,3 +17,6 @@ https://docs.brew.sh/Manpage
 
 
 
+## SSH
+
+ssh-keygen -t ed25519 -f ~/.ssh/alican.ed25519 -C "Key for my homeserver"
