@@ -41,4 +41,25 @@ Restart the SSH server to apply the changes
 
 ```systemctl restart ssh```
 
+Save remote Hosts on your local client at  ```~/.ssh/config```
+
+```
+Host alican.de
+     HostName alican.de
+     User alican
+     IdentityFile ~/.ssh/alican.ed25519
+
+Host klipper
+     HostName 192.168.178.42
+     User pi
+     Port 2000
+     LocalForward 80 localhost:8080
+     IdentityFile ~/.ssh/klipper.ed25519
+     
+```
+
+Now just run the ssh command like this
+
+``` ssh alican.de```
+
 
