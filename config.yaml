@@ -4,17 +4,19 @@ title: 'Alican Toprak'
 theme: "stack"
 
 enableGitInfo: true
+permalinks:
+    post: /p/:slug/
+    page: /:slug/
+mainSections:
+        - post
+
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: 
-      - identifier: about
-        name: about
-        url: /about/
-      - identifier: git
-        name: git
-        url: /git/
+    main: []
+
+
 
 
     social:
@@ -23,13 +25,66 @@ menu:
           url: https://github.com/alican/
           params:
               icon: brand-github
-
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        - identifier: linkedin
+          name: LinkedIn
+          url: https://www.linkedin.com/in/alican-toprak/
           params:
-              icon: brand-twitter
-
+              icon: icon-linkedin
+        - identifier: instagram
+          name: Instagram
+          url: https://www.instagram.com/alican_ohje/
+          params:
+              icon: icon-instagram
+params:
+    editURL: https://github.com/alican/alican.github.io/tree/master/content/
+    featuredImageField: image
+    rssFullContent: true
+    dateFormat:
+        published: Jan 02, 2006
+        lastUpdated: Jan 02, 2006 15:04 MST
+    page: 
+        readingTime: true
+    article:
+            math: true
+            toc: true
+            readingTime: true
+            license:
+                enabled: false
+                default: Licensed under CC BY-NC-SA 4.0
+    footer:
+        customText: 
+    sidebar:
+        compact: false
+        emoji: 
+        subtitle: Im Software Engineer from Frankfurt.
+        avatar:
+            enabled: true
+            src: "img/avatar.png"
+            local: true
+    imageProcessing:
+        cover:
+            enabled: true
+        content:
+            enabled: true
+    colorScheme:
+        toggle: true
+        default: dark
+    widgets:
+        homepage: 
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page: 
+            - type: search
+            - type: toc
+              params: []
 related:
     includeNewer: true
     threshold: 60
@@ -40,27 +95,21 @@ related:
 
         - name: categories
           weight: 200
-params:
-    editURL: https://github.com/alican/alican.github.io/tree/master/content/
-    article:
-            math: true
-            toc: true
-            readingTime: true
-            license:
-                enabled: false
-                default: Licensed under CC BY-NC-SA 4.0
-    footer:
-        customText: Hi
-    sidebar:
-        compact: false
-        emoji: 
-        subtitle: Software Engineer from Frankfurt
-        avatar:
-            enabled: true
-            src: "img/avater.png"
-            local: true
-    imageProcessing:
-        cover:
-            enabled: true
-        content:
-            enabled: true
+
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: true
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false
+        codeFences: true
+        guessSyntax: true
+        lineNoStart: 1
+        lineNos: true
+        lineNumbersInTable: true
+        tabWidth: 4
