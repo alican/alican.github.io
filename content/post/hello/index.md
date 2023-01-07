@@ -1,7 +1,7 @@
 ---
 title: "Welcome to my blog"
 date: 2022-10-17T22:48:08+02:00
-draft: false
+draft: true
 toc: true
 image: cover.jpg
 description: 
