@@ -4,3 +4,7 @@
 *.lock
 
 public/
+
+.vscode/
+
+.DS_Store
