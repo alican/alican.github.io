@@ -15,5 +15,3 @@ https://docs.brew.sh/Manpage
 
 ### Install python3 on macOS
 
-
-
