@@ -8,3 +8,5 @@ public/
 .vscode/
 
 .DS_Store
+
+resources/
