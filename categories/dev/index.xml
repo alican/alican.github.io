@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development on Alican Toprak</title><link>https://alican.de/categories/dev/</link><description>Recent content in Development on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://alican.de/categories/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://alican.de/git/</link><pubDate>Mon, 17 Oct 2022 22:48:08 +0200</pubDate><guid>https://alican.de/git/</guid><description>&lt;img src="https://alican.de/git/git.png" alt="Featured image of post Git" />&lt;h2 id="install-git">Install Git&lt;/h2>
+&lt;h3 id="install-git-on-macos">Install Git on macOS&lt;/h3>
+&lt;p>Install Git using Homebrew:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> brew install git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Verify the installation was successful:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> git --version
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="configure-your-git-username-and-email">Configure your Git username and email&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> git config --global user.email &lt;span class="s2">&amp;#34;git@mail&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> git config --global user.name &lt;span class="s2">&amp;#34;Alican Toprak
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="install-git-credential-osxkeychain">Install git-credential-osxkeychain&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> git credential-osxkeychain
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="representation">Representation&lt;/h3>
+&lt;p>Draw a text-based graphical representation of the commit history on the left hand side of the output.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> git log --all --decorate --oneline --graph
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Welcome to my blog</title><link>https://alican.de/p/welcome-to-my-blog/</link><pubDate>Mon, 17 Oct 2022 22:48:08 +0200</pubDate><guid>https://alican.de/p/welcome-to-my-blog/</guid><description>&lt;img src="https://alican.de/p/welcome-to-my-blog/cover.jpg" alt="Featured image of post Welcome to my blog" />&lt;p>Dies ist nun mein nächster Versuch nach fast einem Jahrzehnt wieder eine persönlche Webseite mit eigenem Blog online zu stellen. Es soll als Dokumentation meiner eigenen Erkentnisse für mich und andere dienen. Die üblichen beliebten Dienste wie Medium oder Squarespace usw. kamen nicht in Frage, weil ich durch Selbsthosting die Individualität und Unabhängigkeit des Internets noch Wertschätzung zeigen möchte.
+Aufgrund von Zeitmangel muss der Aufwand trotz Eigenhosting so gering wie möglich gehalten werden, deswegen wurde es nicht wie so üblichen ein CMS wie Wordpress. Ich habe mich für Hugo entschieden, das ein &lt;a class="link" href="https://jamstack.org/" target="_blank" rel="noopener"
+>JamStack-Ansatz&lt;/a> verfolgt und gute Themes bereitstellt und von der Struktur her sich an Software-Dokumentation anlehnt.&lt;/p>
+&lt;p>Wenn man bei der Software-Entwicklung Texte für die Dokumentation in seiner liebgewonnen IDE und in Markdown verfasst, so muss man beim bloggen aus dieser Routine nicht ausbrechen und sich nicht in irgendwelchen CMS einloggen und sich mit WYSIWYG-Editoren rumschlagen.&lt;/p>
+&lt;h2 id="mkdocs-vs-hugo">MkDocs vs Hugo&lt;/h2>
+&lt;p>Zuerst hatte ich mich für &lt;a class="link" href="https://www.mkdocs.org/" target="_blank" rel="noopener"
+>MkDocs&lt;/a> entschieden. Es ist ein in Python implementierter Static Site Generator den man mit Markdown-Dokumenten füttert und der daraus eine HTML-Seite generiert. Konfriguiert wird es in YAML und für die HTML-Templates wird die &lt;a class="link" href="https://jinja.palletsprojects.com/en/3.1.x/" target="_blank" rel="noopener"
+>Jinja engine&lt;/a> verwendet. Durch fertige Themes bekommt man so schnell ansprechende Webseiten als Ergebniss, darunter das wohl beliebteste &lt;a class="link" href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener"
+>Material for MkDocs &lt;/a>. Wie der Name schon andeutet, baut es auf das &lt;a class="link" href="https://m2.material.io/design/" target="_blank" rel="noopener"
+>Material-Design&lt;/a> auf und bietet ganz nützliche Plugins, wie die Suche und Social-Media-Cards. Es hat auch ein eingebautes &lt;a class="link" href="https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#built-in-blog-plugin" target="_blank" rel="noopener"
+>Blog-Plugin&lt;/a>, das aber nur für &amp;ldquo;Insiders&amp;rdquo; nutzbar ist. Insiders ist &lt;a class="link" href="https://squidfunk.github.io/mkdocs-material/insiders/#what-is-insiders" target="_blank" rel="noopener"
+>jeder der den Entwickler mit mindestens 15 Euro im Monat unterstützt&lt;/a>. Der Entwickler hat sicherlich viel Arbeit reingesteckt, für eine kleine private Webseite ist das aber ein unverhältnismäßiger hoher Betrag.&lt;/p>
+&lt;p>Unzufrieden mit diesem Umstand, habe ich weiter gesucht und dann &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+>Hugo&lt;/a> entdeckt. Auf dieser Seite findet man eine Liste von vielen &lt;a class="link" href="https://jamstack.org/generators/" target="_blank" rel="noopener"
+>Static Site Generetoren&lt;/a> und kann sich selbst einen Eindruck von der Großen Auswahl machen.&lt;/p>
+&lt;p>This webpages are static generated markdown documents that are generated from my github repository.
+A push or merge to the master branch triggers a github action that starts the &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+>Hugo&lt;/a> static site generator, witch builds this whole website and puts the static html documents inside an own branch. I use the github webpage hosting service and my own domain to serve the html documents to the internet.&lt;/p>
+&lt;p>The benifits of this approach are:&lt;/p>
+&lt;ul>
+&lt;li>free webhosting through github pages&lt;/li>
+&lt;li>Using git and markdown workflow to write/edit and deploy your content&lt;/li>
+&lt;li>No maintenance for a CMS like wordpress, no security updates, no bugs, no hacks&lt;/li>
+&lt;li>Third part contribution with pull requests&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://alican.de/p/welcome-to-my-blog/editor.png"
+width="1420"
+height="907"
+srcset="https://alican.de/p/welcome-to-my-blog/editor_hu894d576ab6801220fca82488bcc0ac54_398253_480x0_resize_box_3.png 480w, https://alican.de/p/welcome-to-my-blog/editor_hu894d576ab6801220fca82488bcc0ac54_398253_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Die Darstellung meines Editors"
+class="gallery-image"
+data-flex-grow="156"
+data-flex-basis="375px"
+>&lt;/p></description></item></channel></rss>
