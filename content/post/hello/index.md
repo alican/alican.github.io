@@ -1,7 +1,7 @@
 ---
 title: "Welcome to my blog"
-date: 2022-10-17T22:48:08+02:00
-draft: true
+date: 2023-01-01T22:48:08+02:00
+draft: false
 toc: true
 image: cover.jpg
 description: 
@@ -10,27 +10,31 @@ categories: dev
 ---
 
 
-Dies ist nun mein nächster Versuch nach fast einem Jahrzehnt wieder eine persönlche Webseite mit eigenem Blog online zu stellen. Es soll als Dokumentation meiner eigenen Erkentnisse für mich und andere dienen. Die üblichen beliebten Dienste wie Medium oder Squarespace usw. kamen nicht in Frage, weil ich durch Selbsthosting die Individualität und Unabhängigkeit des Internets noch Wertschätzung zeigen möchte.
-Aufgrund von Zeitmangel muss der Aufwand trotz Eigenhosting so gering wie möglich gehalten werden, deswegen wurde es nicht wie so üblichen ein CMS wie Wordpress. Ich habe mich für Hugo entschieden, das ein [JamStack-Ansatz](https://jamstack.org/) verfolgt und gute Themes bereitstellt und von der Struktur her sich an Software-Dokumentation anlehnt.
 
-Wenn man bei der Software-Entwicklung Texte für die Dokumentation in seiner liebgewonnen IDE und in Markdown verfasst, so muss man beim bloggen aus dieser Routine nicht ausbrechen und sich nicht in irgendwelchen CMS einloggen und sich mit WYSIWYG-Editoren rumschlagen.
+This is now the next attempt after almost a decade to put my personal website online. It should serve as a documentation of my own findings for me and others. Like a public [Zettelkasten.](https://de.wikipedia.org/wiki/Zettelkasten)
+
+I compose and manage the documents with Obsidian and keep them synchronized on different devices via Github. As a [JamStack](https://jamstack.org/) approach, I use [Hugo](https://gohugo.io/), which provides good themes and aligns with software documentation in terms of structure. It automatically creates a full-fledged static HTML web page with navigation, search, tags and other useful auto-generated information, just using the Markdown data created by Obsidian.
+
+![This page in Obsidian](editor.png)
 
 ## MkDocs vs Hugo
 
-Zuerst hatte ich mich für [MkDocs](https://www.mkdocs.org/) entschieden. Es ist ein in Python implementierter Static Site Generator den man mit Markdown-Dokumenten füttert und der daraus eine HTML-Seite generiert. Konfriguiert wird es in YAML und für die HTML-Templates wird die [Jinja engine](https://jinja.palletsprojects.com/en/3.1.x/) verwendet. Durch fertige Themes bekommt man so schnell ansprechende Webseiten als Ergebniss, darunter das wohl beliebteste [Material for MkDocs ](https://squidfunk.github.io/mkdocs-material/). Wie der Name schon andeutet, baut es auf das [Material-Design](https://m2.material.io/design/) auf und bietet ganz nützliche Plugins, wie die Suche und Social-Media-Cards. Es hat auch ein eingebautes [Blog-Plugin](https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#built-in-blog-plugin), das aber nur für "Insiders" nutzbar ist. Insiders ist [jeder der den Entwickler mit mindestens 15 Euro im Monat unterstützt](https://squidfunk.github.io/mkdocs-material/insiders/#what-is-insiders). Der Entwickler hat sicherlich viel Arbeit reingesteckt, für eine kleine private Webseite ist das aber ein unverhältnismäßiger hoher Betrag.
+First I decided to use [MkDocs](https://www.mkdocs.org/). It is also a static site generator implemented in Python that you feed with Markdown documents, and it generates a HTML page. Configured in YAML and for the HTML templates the [Jinja engine](https://jinja.palletsprojects.com/en/3.1.x/) is used. With the help of community-made themes you can quickly get appealing web pages as a result. Probably the most popular theme is [Material for MkDocs ](https://squidfunk.github.io/mkdocs-material/). As the name suggests, it builds on the [Material theme](https://m2.material.io/design/) and offers quite useful plugins, such as search and social media cards. It also has a built-in [blog plugin](https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#built-in-blog-plugin), but that is only usable by "Insiders". Insiders is [anyone who supports the developer with at least 15 euros a month](https://squidfunk.github.io/mkdocs-material/insiders/#what-is-insiders). The developer has certainly put a lot of work into it, but for a small private website this is a disproportionately high price.
 
-Unzufrieden mit diesem Umstand, habe ich weiter gesucht und dann [Hugo](https://gohugo.io/) entdeckt. Auf dieser Seite findet man eine Liste von vielen [Static Site Generetoren](https://jamstack.org/generators/) und kann sich selbst einen Eindruck von der Großen Auswahl machen.
+Dissatisfied with this circumstance, I searched further and then discovered [Hugo](https://gohugo.io/). On this page you can find a list of many [Static Site Generetoren](https://jamstack.org/generators/) and can make yourself an impression of the large selection.
 
+This webpages are, like said, static generated markdown documents that are generated from my github repository.
+A push to the main branch triggers a github action that starts the [Hugo](https://gohugo.io/) static site generator, witch builds this whole website and puts the static html documents inside an own branch. I use the github webpage hosting service and my own domain to serve the html documents to the internet.
 
-This webpages are static generated markdown documents that are generated from my github repository.
-A push or merge to the master branch triggers a github action that starts the [Hugo](https://gohugo.io/) static site generator, witch builds this whole website and puts the static html documents inside an own branch. I use the github webpage hosting service and my own domain to serve the html documents to the internet.
+The benifits of this approach are simple.
+As software developer you write texts for documentation in your favorite IDE and in Markdown, you don't have to break out of this routine when blogging and you don't have to log into any CMS and struggle with WYSIWYG editors.
 
-The benifits of this approach are:
+In a nutshell:
 
 * free webhosting through github pages
 * Using git and markdown workflow to write/edit and deploy your content
 * No maintenance for a CMS like wordpress, no security updates, no bugs, no hacks
 * Third part contribution with pull requests
 
-![Die Darstellung meines Editors](editor.png)
+
 

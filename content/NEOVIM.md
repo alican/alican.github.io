@@ -1,4 +1,4 @@
-Test7
+Test10s
 
 ```bash
 	vimtutor
