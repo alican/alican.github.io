@@ -4,7 +4,7 @@ slug: "obsidian"
 toc: true
 image: obsidian.jpg
 readingTime: false
-date: 2023-01-12T22:48:08+02:00
+date: 2023-01-11T22:48:08+02:00
 categories: [cheatsheet, dev]   
 
 ---
