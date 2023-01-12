@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development on Alican Toprak</title><link>https://alican.de/categories/dev/</link><description>Recent content in Development on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://alican.de/categories/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://alican.de/git/</link><pubDate>Mon, 17 Oct 2022 22:48:08 +0200</pubDate><guid>https://alican.de/git/</guid><description>&lt;img src="https://alican.de/git/git.png" alt="Featured image of post Git" />&lt;h2 id="install-git">Install Git&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development on Alican Toprak</title><link>https://alican.de/categories/dev/</link><description>Recent content in Development on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://alican.de/categories/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to my blog</title><link>https://alican.de/p/welcome-to-my-blog/</link><pubDate>Sun, 01 Jan 2023 22:48:08 +0200</pubDate><guid>https://alican.de/p/welcome-to-my-blog/</guid><description>&lt;img src="https://alican.de/p/welcome-to-my-blog/cover.jpg" alt="Featured image of post Welcome to my blog" />&lt;p>This is now the next attempt after almost a decade to put my personal website online. It should serve as a documentation of my own findings for me and others. Like a public &lt;a class="link" href="https://de.wikipedia.org/wiki/Zettelkasten" target="_blank" rel="noopener"
+>Zettelkasten.&lt;/a>&lt;/p>
+&lt;p>I compose and manage the documents with Obsidian and keep them synchronized on different devices via Github. As a &lt;a class="link" href="https://jamstack.org/" target="_blank" rel="noopener"
+>JamStack&lt;/a> approach, I use &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+>Hugo&lt;/a>, which provides good themes and aligns with software documentation in terms of structure. It automatically creates a full-fledged static HTML web page with navigation, search, tags and other useful auto-generated information, just using the Markdown data created by Obsidian.&lt;/p>
+&lt;p>&lt;img src="https://alican.de/p/welcome-to-my-blog/editor.png"
+width="2958"
+height="1924"
+srcset="https://alican.de/p/welcome-to-my-blog/editor_hufe7268f6eefdc8dd7a4cc24a9e614e80_1109781_480x0_resize_box_3.png 480w, https://alican.de/p/welcome-to-my-blog/editor_hufe7268f6eefdc8dd7a4cc24a9e614e80_1109781_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="This page in Obsidian"
+class="gallery-image"
+data-flex-grow="153"
+data-flex-basis="368px"
+>&lt;/p>
+&lt;h2 id="mkdocs-vs-hugo">MkDocs vs Hugo&lt;/h2>
+&lt;p>First I decided to use &lt;a class="link" href="https://www.mkdocs.org/" target="_blank" rel="noopener"
+>MkDocs&lt;/a>. It is also a static site generator implemented in Python that you feed with Markdown documents, and it generates a HTML page. Configured in YAML and for the HTML templates the &lt;a class="link" href="https://jinja.palletsprojects.com/en/3.1.x/" target="_blank" rel="noopener"
+>Jinja engine&lt;/a> is used. With the help of community-made themes you can quickly get appealing web pages as a result. Probably the most popular theme is &lt;a class="link" href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener"
+>Material for MkDocs &lt;/a>. As the name suggests, it builds on the &lt;a class="link" href="https://m2.material.io/design/" target="_blank" rel="noopener"
+>Material theme&lt;/a> and offers quite useful plugins, such as search and social media cards. It also has a built-in &lt;a class="link" href="https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#built-in-blog-plugin" target="_blank" rel="noopener"
+>blog plugin&lt;/a>, but that is only usable by &amp;ldquo;Insiders&amp;rdquo;. Insiders is &lt;a class="link" href="https://squidfunk.github.io/mkdocs-material/insiders/#what-is-insiders" target="_blank" rel="noopener"
+>anyone who supports the developer with at least 15 euros a month&lt;/a>. The developer has certainly put a lot of work into it, but for a small private website this is a disproportionately high price.&lt;/p>
+&lt;p>Dissatisfied with this circumstance, I searched further and then discovered &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+>Hugo&lt;/a>. On this page you can find a list of many &lt;a class="link" href="https://jamstack.org/generators/" target="_blank" rel="noopener"
+>Static Site Generetoren&lt;/a> and can make yourself an impression of the large selection.&lt;/p>
+&lt;p>This webpages are, like said, static generated markdown documents that are generated from my github repository.
+A push to the main branch triggers a github action that starts the &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+>Hugo&lt;/a> static site generator, witch builds this whole website and puts the static html documents inside an own branch. I use the github webpage hosting service and my own domain to serve the html documents to the internet.&lt;/p>
+&lt;p>The benifits of this approach are simple.
+As software developer you write texts for documentation in your favorite IDE and in Markdown, you don&amp;rsquo;t have to break out of this routine when blogging and you don&amp;rsquo;t have to log into any CMS and struggle with WYSIWYG editors.&lt;/p>
+&lt;p>In a nutshell:&lt;/p>
+&lt;ul>
+&lt;li>free webhosting through github pages&lt;/li>
+&lt;li>Using git and markdown workflow to write/edit and deploy your content&lt;/li>
+&lt;li>No maintenance for a CMS like wordpress, no security updates, no bugs, no hacks&lt;/li>
+&lt;li>Third part contribution with pull requests&lt;/li>
+&lt;/ul></description></item><item><title>Git</title><link>https://alican.de/git/</link><pubDate>Mon, 17 Oct 2022 22:48:08 +0200</pubDate><guid>https://alican.de/git/</guid><description>&lt;img src="https://alican.de/git/git.png" alt="Featured image of post Git" />&lt;h2 id="install-git">Install Git&lt;/h2>
 &lt;h3 id="install-git-on-macos">Install Git on macOS&lt;/h3>
 &lt;p>Install Git using Homebrew:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
