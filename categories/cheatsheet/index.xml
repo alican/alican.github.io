@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cheatsheets on Alican Toprak</title><link>https://alican.de/categories/cheatsheet/</link><description>Recent content in Cheatsheets on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://alican.de/categories/cheatsheet/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://alican.de/git/</link><pubDate>Mon, 17 Oct 2022 22:48:08 +0200</pubDate><guid>https://alican.de/git/</guid><description>&lt;img src="https://alican.de/git/git.png" alt="Featured image of post Git" />&lt;h2 id="install-git">Install Git&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cheatsheets on Alican Toprak</title><link>https://alican.de/categories/cheatsheet/</link><description>Recent content in Cheatsheets on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://alican.de/categories/cheatsheet/index.xml" rel="self" type="application/rss+xml"/><item><title>Obsidian</title><link>https://alican.de/obsidian/</link><pubDate>Wed, 11 Jan 2023 22:48:08 +0200</pubDate><guid>https://alican.de/obsidian/</guid><description>&lt;img src="https://alican.de/obsidian/obsidian.jpg" alt="Featured image of post Obsidian" />&lt;h2 id="mobile-app-iosandroid-synchronization-with-git">Mobile App (iOS/Android) synchronization with git&lt;/h2>
+&lt;p>You don&amp;rsquo;t need the Sync function of the app or another app like a git client. The Obsidian Git plugin is also available for mobile and gives everything you need to synchronize your Obsidian fault between different mobile and desktop devices.&lt;/p>
+&lt;h3 id="install-obsidian-mobile">Install Obsidian Mobile&lt;/h3>
+&lt;pre>&lt;code>- [Obsidian for iOS](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442)
+- [Obsidian for Android](https://play.google.com/store/apps/details?id=md.obsidian)
+&lt;/code>&lt;/pre>
+&lt;h2 id="create-a-git-repository-on-githubcom-for-example">Create a git repository (on github.com for example)&lt;/h2>
+&lt;ol>
+&lt;li>Create an empty repository&lt;/li>
+&lt;li>Create a new access token &lt;a class="link" href="https://github.com/settings/tokens" target="_blank" rel="noopener"
+>(Settings-&amp;gt;Developer Settings-&amp;gt;Tokens)&lt;/a> with the Repo scope and copy the token&lt;/li>
+&lt;/ol>
+&lt;h3 id="configure-obsidian">Configure Obsidian&lt;/h3>
+&lt;ol>
+&lt;li>Create a new vault in your mobile obsidian app&lt;/li>
+&lt;li>Enter into the new vault&lt;/li>
+&lt;li>Got the Settings-&amp;gt;About-&amp;gt;Advanced and override the config folder to &lt;code>.obsidian.mobile&lt;/code> for example. This avoids misconfigurations when you use the desktop client because some settings and plugins are different on mobile and desktop. You have than two config folders in your Vault.&lt;/li>
+&lt;li>Activate Community Plugins and install the Obsidian-Git.&lt;/li>
+&lt;li>Enable the Obsidian-Git plugin and go to the plugin settings&lt;/li>
+&lt;li>Enter in the username field &lt;code>__token__&lt;/code> (two underscore)&lt;/li>
+&lt;li>Enter the created github personal access token in the password field&lt;/li>
+&lt;li>Close the Settings and open the &lt;em>command pallete&lt;/em>. Enter &lt;code>Clone an existing remote repo&lt;/code>. It will recommended if you type the first words.&lt;/li>
+&lt;li>Enter the Repository URL of your Git-Repository. I recommend &lt;em>https&lt;/em> and not ssh.&lt;/li>
+&lt;li>Leave path field empty. And choose that their is no obsidian config folder in the remote vault.&lt;/li>
+&lt;li>Restart the app.&lt;/li>
+&lt;/ol></description></item><item><title>Git</title><link>https://alican.de/git/</link><pubDate>Mon, 17 Oct 2022 22:48:08 +0200</pubDate><guid>https://alican.de/git/</guid><description>&lt;img src="https://alican.de/git/git.png" alt="Featured image of post Git" />&lt;h2 id="install-git">Install Git&lt;/h2>
 &lt;h3 id="install-git-on-macos">Install Git on macOS&lt;/h3>
 &lt;p>Install Git using Homebrew:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
