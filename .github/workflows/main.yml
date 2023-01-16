@@ -23,6 +23,7 @@ jobs:
 
       - name: Build
         env:
+            HUGO_TITLE: ${{ secrets.GITALK_CLIENT_ID }}
             HUGO_PARAMS_GITALK_CLIENTID: ${{ secrets.GITALK_CLIENT_ID }}
             HUGO_PARAMS_GITALK_CLIENTSECRET: ${{ secrets.GITALK_CLIENT_SECRET }}
         run: hugo --minify
