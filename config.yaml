@@ -39,8 +39,9 @@ params:
     editURL: https://github.com/alican/alican.github.io/tree/master/content/
     featuredImageField: image
     rssFullContent: true
-    comments: enabled
-    provider: gitalk
+    comments: 
+        enabled: true
+        provider: gitalk
     gitalk:
         owner: alican
         admin: alican
