@@ -56,7 +56,7 @@ params:
     sidebar:
         compact: false
         emoji: 
-        subtitle: Im Software Engineer from Frankfurt.
+        subtitle: A Software Engineer from Frankfurt.
         avatar:
             enabled: true
             src: "img/avatar.png"
