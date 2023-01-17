@@ -2,7 +2,6 @@ baseURL: 'https://alican.de/'
 languageCode: 'en-us'
 title: 'Alican Toprak'
 theme: "stack"
-
 enableGitInfo: true
 permalinks:
     post: /p/:slug/
@@ -13,11 +12,15 @@ disqusShortname: alican-de
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
+
+module:
+    mounts:
+        - source: content
+          target: content
+          excludeFiles: 
+            - /templates/**
 menu:
     main: []
-
-
-
 
     social:
         - identifier: github
