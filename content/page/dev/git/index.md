@@ -6,7 +6,7 @@ image: git.png
 readingTime: false
 date: 2022-10-17T22:48:08+02:00
 categories: [cheatsheet, dev]   
-
+draft: true
 ---
 
 ## Installing Git
