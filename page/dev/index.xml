@@ -26,7 +26,131 @@
 &lt;li>Enter the Repository URL of your Git-Repository. I recommend &lt;em>https&lt;/em> and not ssh.&lt;/li>
 &lt;li>Leave path field empty. And choose that their is no obsidian config folder in the remote vault.&lt;/li>
 &lt;li>Restart the app.&lt;/li>
-&lt;/ol></description></item><item><title>Terminal</title><link>https://alican.de/slug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/slug/</guid><description>&lt;img src="https://alican.de/slug/terminal.png" alt="Featured image of post Terminal" />&lt;h1 id="ssh">SSH&lt;/h1>
+&lt;/ol></description></item><item><title>Git</title><link>https://alican.de/git/</link><pubDate>Mon, 17 Oct 2022 22:48:08 +0200</pubDate><guid>https://alican.de/git/</guid><description>&lt;img src="https://alican.de/git/git.png" alt="Featured image of post Git" />&lt;h2 id="installing-git">Installing Git&lt;/h2>
+&lt;h3 id="install-git-on-macos">Install Git on macOS&lt;/h3>
+&lt;p>Install Git using Homebrew:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">brew install git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Verify the installation was successful:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git --version
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="git-configuration">Git Configuration&lt;/h2>
+&lt;h3 id="configure-your-git-username-and-email">Configure your Git username and email&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> git config --global user.email &lt;span class="s2">&amp;#34;git@yourmail&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> git config --global user.name &lt;span class="s2">&amp;#34;Alican Toprak
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="set-your-default-text-editor-for-editing-your-commit-messages">Set your default text editor for editing your commit messages&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git config --global core.editor neovim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="git-credentials">Git Credentials&lt;/h2>
+&lt;p>More Information about the &lt;a class="link" href="https://git-scm.com/book/sv/v2/Git-Tools-Credential-Storage" target="_blank" rel="noopener"
+>Credential Storage&lt;/a>.&lt;/p>
+&lt;h3 id="how-to-use-keychain-on-macos-to-store-git-credentials">How to use KeyChain on macOS to store git credentials&lt;/h3>
+&lt;p>On macOS you can use the KeyChain with &lt;code>git-credential-osxkeychain&lt;/code>. It&amp;rsquo;s automatic installed if you &lt;a class="link" href="obsidian://open?vault=docs&amp;amp;file=page%2Fdev%2Fhomebrew%2Findex" >install git with homebrew&lt;/a>. The osxkeychain mode caches credentials in the secure keychain that’s attached to your system account. This method stores the credentials on disk, and they never expire, but they’re encrypted with the same system that stores HTTPS certificates and Safari auto-fills.&lt;/p>
+&lt;p>Set osxkeychain as default Credential Storage for your credentials:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git config --global credential.helper osxkeychain
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git credential-osxkeychain
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="how-to-use-the-git-credential-manager-for-windows">How to use the Git Credential Manager for Windows&lt;/h3>
+&lt;p>If you’re using Windows, you can install a helper called “Git Credential Manager for Windows.” This is similar to the “osxkeychain” helper described above, but uses the Windows Credential Store to control sensitive information.&lt;/p>
+&lt;h4 id="installation">Installation&lt;/h4>
+&lt;p>It can be found at &lt;a class="link" href="https://github.com/Microsoft/Git-Credential-Manager-for-Windows" target="_blank" rel="noopener"
+>https://github.com/Microsoft/Git-Credential-Manager-for-Windows&lt;/a>.&lt;/p>
+&lt;p>Set the Git-Credential-Manager as default Credential Storage for your credentials:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git config --global credential.helper manager
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="representation">Representation&lt;/h3>
+&lt;p>Draw a text-based graphical representation of the commit history on the left hand side of the output.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git log --all --decorate --oneline --graph
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="git-head-vs-index-vs-working-directory">Git Head vs Index vs Working Directory&lt;/h2>
+&lt;p>..&lt;/p>
+&lt;h2 id="git-reset-vs-checkout">Git reset vs checkout&lt;/h2>
+&lt;p>&lt;code>Git reset &lt;/code>and &lt;code>checkout&lt;/code> both updates the HEAD, Index and Working Directory branches.&lt;/p>
+&lt;p>Running &lt;code>git checkout [branch]&lt;/code> is pretty similar to running &lt;code>git reset --hard [branch]&lt;/code> in that it updates all three trees for you to look like &lt;code>[branch]&lt;/code>, but there are two important differences:&lt;/p>
+&lt;ul>
+&lt;li>unlike &lt;code>reset --hard&lt;/code>, &lt;code>checkout&lt;/code> is working-directory safe; it will check to make sure it’s not blowing away files that have changes to them. Actually, it’s a bit smarter than that — it tries to do a trivial merge in the working directory, so all of the files you &lt;em>haven’t&lt;/em> changed will be updated. &lt;code>reset --hard&lt;/code>, on the other hand, will simply replace everything across the board without checking.&lt;/li>
+&lt;li>The second important difference is how &lt;code>checkout&lt;/code> updates HEAD. Whereas &lt;code>reset&lt;/code> will move the branch that HEAD points to, &lt;code>checkout&lt;/code> will move HEAD itself to point to another branch.&lt;/li>
+&lt;/ul>
+&lt;h3 id="git-reset">Git reset&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>flag&lt;/th>
+&lt;th>description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&amp;ndash;soft&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&amp;ndash;mixed&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&amp;ndash;hard&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Terminal</title><link>https://alican.de/slug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/slug/</guid><description>&lt;img src="https://alican.de/slug/terminal.png" alt="Featured image of post Terminal" />&lt;h1 id="ssh">SSH&lt;/h1>
 &lt;p>Generate a Private/Pub-Key with et25519 and a Comment.&lt;/p>
 &lt;p>&lt;code>ssh-keygen -t ed25519 -f ~/.ssh/alican.ed25519 -C &amp;quot;Key for my homeserver&amp;quot;&lt;/code>&lt;/p>
 &lt;p>Transfer the pub key to remote host. Typicall its located at &lt;code>/home/$USERNAME/.ssh/&lt;/code>&lt;/p>
