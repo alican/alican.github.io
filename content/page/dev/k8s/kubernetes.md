@@ -6,7 +6,7 @@ image: kubernetes.jpg
 readingTime: false
 date: 2023-01-17, 10:33h
 categories: [dev, kubernetes, devops]   
-
+draft: true
 ---	
 
 # Forward a local port to a port on the Pod 

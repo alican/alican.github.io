@@ -1,12 +1,12 @@
 ---
-title: "Titel"
+title: "Homebrews"
 slug: "slug"
 toc: false
 image: image.jpg
 readingTime: false
 date: 2023-01-17, 10:37h
 categories: [dev]   
-
+draft: true
 ---	
 
 	Homebrew is the easiest and most flexible way to install the UNIX tools
