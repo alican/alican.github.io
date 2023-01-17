@@ -6,7 +6,7 @@ image: git.png
 readingTime: false
 date: 2022-10-17T22:48:08+02:00
 categories: [cheatsheet, dev]   
-draft: true
+draft: false
 ---
 
 ## Installing Git
@@ -92,7 +92,7 @@ git log --all --decorate --oneline --graph
 
 ## Git Head vs Index vs Working Directory
 
-Git has 
+..
 
 ## Git reset vs checkout
 
@@ -106,24 +106,11 @@ Running `git checkout [branch]` is pretty similar to running `git reset --hard [
 
 
 
-- Git reset
+### Git reset
 
-	--soft 
-	--mixed
-	--hard 
-	
-```mermaid
-classDiagram
-    class HEAD
-    HEAD :  file.txt
-    class Index
-    Index :  file.txt
-    class WorkingDirectory
-    WorkingDirectory : file.txt
-```
+| flag    | description |
+| ------- | ----------- |
+| --soft  |             |
+| --mixed |             |
+| --hard        |             |
 
-```mermaid
-graph LR;
-    HEAD-->Index;
-    Index-->WorkingDirectory;
-```
