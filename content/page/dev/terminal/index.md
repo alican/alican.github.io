@@ -2,11 +2,11 @@
 title: "Terminal"
 slug: "slug"
 toc: false
-image: terminal.jpg
+image: terminal.png
 readingTime: false
 date: 2023-01-17, 10:29h
 categories: [dev, terminal]   
-draft: true
+draft: false
 ---	
 
 
