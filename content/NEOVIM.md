@@ -1,6 +1,8 @@
-Test10s
+
 
 ```bash
 	vimtutor
 ```
 
+```
+    nvim +Tutor

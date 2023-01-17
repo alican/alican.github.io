@@ -12,11 +12,12 @@ categories: [cheatsheet, dev]
 
 ## Mobile App (iOS/Android) synchronization with git
 
-You don't need the Sync function of the app or another app like a git client. The Obsidian Git plugin is also available for mobile and gives everything you need to synchronize your Obsidian fault between different mobile and desktop devices.
+
+You don't need the premium sync function of the app or another app like a git client to backup and sync- your fault. The Obsidian Git plugin is also available for mobile and gives everything you need to synchronize your Obsidian fault between different mobile and desktop devices.
 
 ### Install Obsidian Mobile
-	- [Obsidian for iOS](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442)
-	- [Obsidian for Android](https://play.google.com/store/apps/details?id=md.obsidian)
+- [Obsidian for iOS](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442)
+- [Obsidian for Android](https://play.google.com/store/apps/details?id=md.obsidian)
 
 
 ## Create a git repository (on github.com for example)

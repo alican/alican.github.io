@@ -1,5 +1,15 @@
+---
+title: "Setup your macOS Terminal Warp+Starship+Zsh"
+slug: "setup-your-macos-terminal-warp-starship-zsh"
+toc: false
+image: image.jpg
+readingTime: false
+date: 2023-01-17, 10:43h
+categories: [dev]   
 
-Homebrew installieren
+---	
+
+## Homebrew installieren
 
 [Starship](https://starship.rs/) ist ein Shell-Prompt der in Rust geschrieben ist, super schnell ist und für macOS, Windows und Linux verfügbar ist.
 

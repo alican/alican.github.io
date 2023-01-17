@@ -1,3 +1,14 @@
+---
+title: "Titel"
+slug: "slug"
+toc: false
+image: image.jpg
+readingTime: false
+date: 2023-01-17, 10:37h
+categories: [dev]   
+
+---	
+
 	Homebrew is the easiest and most flexible way to install the UNIX tools
 	Apple didn´t include with macOS. It can also install software not
 	packaged for your Linux distribution to your home directory without
