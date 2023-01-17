@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alican Toprak</title><link>https://alican.de/</link><description>Recent content on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 Jan 2023 22:48:08 +0200</lastBuildDate><atom:link href="https://alican.de/index.xml" rel="self" type="application/rss+xml"/><item><title>Obsidian</title><link>https://alican.de/obsidian/</link><pubDate>Wed, 11 Jan 2023 22:48:08 +0200</pubDate><guid>https://alican.de/obsidian/</guid><description>&lt;img src="https://alican.de/obsidian/obsidian.jpg" alt="Featured image of post Obsidian" />&lt;h2 id="mobile-app-iosandroid-synchronization-with-git">Mobile App (iOS/Android) synchronization with git&lt;/h2>
-&lt;p>You don&amp;rsquo;t need the Sync function of the app or another app like a git client. The Obsidian Git plugin is also available for mobile and gives everything you need to synchronize your Obsidian fault between different mobile and desktop devices.&lt;/p>
+&lt;p>You don&amp;rsquo;t need the premium sync function of the app or another app like a git client to backup and sync- your fault. The Obsidian Git plugin is also available for mobile and gives everything you need to synchronize your Obsidian fault between different mobile and desktop devices.&lt;/p>
 &lt;h3 id="install-obsidian-mobile">Install Obsidian Mobile&lt;/h3>
-&lt;pre>&lt;code>- [Obsidian for iOS](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442)
-- [Obsidian for Android](https://play.google.com/store/apps/details?id=md.obsidian)
-&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442" target="_blank" rel="noopener"
+>Obsidian for iOS&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://play.google.com/store/apps/details?id=md.obsidian" target="_blank" rel="noopener"
+>Obsidian for Android&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;h2 id="create-a-git-repository-on-githubcom-for-example">Create a git repository (on github.com for example)&lt;/h2>
 &lt;ol>
 &lt;li>Create an empty repository&lt;/li>
@@ -60,7 +63,7 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;li>Using git and markdown workflow to write/edit and deploy your content&lt;/li>
 &lt;li>No maintenance for a CMS like wordpress, no security updates, no bugs, no hacks&lt;/li>
 &lt;li>Third part contribution with pull requests&lt;/li>
-&lt;/ul></description></item><item><title>Git</title><link>https://alican.de/git/</link><pubDate>Mon, 17 Oct 2022 22:48:08 +0200</pubDate><guid>https://alican.de/git/</guid><description>&lt;img src="https://alican.de/git/git.png" alt="Featured image of post Git" />&lt;h2 id="install-git">Install Git&lt;/h2>
+&lt;/ul></description></item><item><title>Git</title><link>https://alican.de/git/</link><pubDate>Mon, 17 Oct 2022 22:48:08 +0200</pubDate><guid>https://alican.de/git/</guid><description>&lt;img src="https://alican.de/git/git.png" alt="Featured image of post Git" />&lt;h2 id="installing-git">Installing Git&lt;/h2>
 &lt;h3 id="install-git-on-macos">Install Git on macOS&lt;/h3>
 &lt;p>Install Git using Homebrew:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -68,7 +71,7 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> brew install git
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">brew install git
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>Verify the installation was successful:&lt;/p>
@@ -77,10 +80,11 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> git --version
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git --version
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="configure-your-git-username-and-email">Configure your Git username and email&lt;/h3>
+&lt;/div>&lt;h2 id="git-configuration">Git Configuration&lt;/h2>
+&lt;h3 id="configure-your-git-username-and-email">Configure your Git username and email&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
@@ -93,17 +97,53 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;/span>&lt;span class="lnt">2
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> git config --global user.email &lt;span class="s2">&amp;#34;git@mail&amp;#34;&lt;/span>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> git config --global user.email &lt;span class="s2">&amp;#34;git@yourmail&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> git config --global user.name &lt;span class="s2">&amp;#34;Alican Toprak
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="install-git-credential-osxkeychain">Install git-credential-osxkeychain&lt;/h3>
+&lt;/div>&lt;h3 id="set-your-default-text-editor-for-editing-your-commit-messages">Set your default text editor for editing your commit messages&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> git credential-osxkeychain
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git config --global core.editor neovim
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="git-credentials">Git Credentials&lt;/h2>
+&lt;p>More Information about the &lt;a class="link" href="https://git-scm.com/book/sv/v2/Git-Tools-Credential-Storage" target="_blank" rel="noopener"
+>Credential Storage&lt;/a>.&lt;/p>
+&lt;h3 id="how-to-use-keychain-on-macos-to-store-git-credentials">How to use KeyChain on macOS to store git credentials&lt;/h3>
+&lt;p>On macOS you can use the KeyChain with &lt;code>git-credential-osxkeychain&lt;/code>. It&amp;rsquo;s automatic installed if you &lt;a class="link" href="obsidian://open?vault=docs&amp;amp;file=page%2Fdev%2Fhomebrew%2Findex" >install git with homebrew&lt;/a>. The osxkeychain mode caches credentials in the secure keychain that’s attached to your system account. This method stores the credentials on disk, and they never expire, but they’re encrypted with the same system that stores HTTPS certificates and Safari auto-fills.&lt;/p>
+&lt;p>Set osxkeychain as default Credential Storage for your credentials:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git config --global credential.helper osxkeychain
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git credential-osxkeychain
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="how-to-use-the-git-credential-manager-for-windows">How to use the Git Credential Manager for Windows&lt;/h3>
+&lt;p>If you’re using Windows, you can install a helper called “Git Credential Manager for Windows.” This is similar to the “osxkeychain” helper described above, but uses the Windows Credential Store to control sensitive information.&lt;/p>
+&lt;h4 id="installation">Installation&lt;/h4>
+&lt;p>It can be found at &lt;a class="link" href="https://github.com/Microsoft/Git-Credential-Manager-for-Windows" target="_blank" rel="noopener"
+>https://github.com/Microsoft/Git-Credential-Manager-for-Windows&lt;/a>.&lt;/p>
+&lt;p>Set the Git-Credential-Manager as default Credential Storage for your credentials:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git config --global credential.helper manager
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="representation">Representation&lt;/h3>
@@ -113,7 +153,56 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> git log --all --decorate --oneline --graph
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git log --all --decorate --oneline --graph
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="git-head-vs-index-vs-working-directory">Git Head vs Index vs Working Directory&lt;/h2>
+&lt;p>Git has&lt;/p>
+&lt;h2 id="git-reset-vs-checkout">Git reset vs checkout&lt;/h2>
+&lt;p>&lt;code>Git reset &lt;/code>and &lt;code>checkout&lt;/code> both updates the HEAD, Index and Working Directory branches.&lt;/p>
+&lt;p>Running &lt;code>git checkout [branch]&lt;/code> is pretty similar to running &lt;code>git reset --hard [branch]&lt;/code> in that it updates all three trees for you to look like &lt;code>[branch]&lt;/code>, but there are two important differences:&lt;/p>
+&lt;ul>
+&lt;li>unlike &lt;code>reset --hard&lt;/code>, &lt;code>checkout&lt;/code> is working-directory safe; it will check to make sure it’s not blowing away files that have changes to them. Actually, it’s a bit smarter than that — it tries to do a trivial merge in the working directory, so all of the files you &lt;em>haven’t&lt;/em> changed will be updated. &lt;code>reset --hard&lt;/code>, on the other hand, will simply replace everything across the board without checking.&lt;/li>
+&lt;li>The second important difference is how &lt;code>checkout&lt;/code> updates HEAD. Whereas &lt;code>reset&lt;/code> will move the branch that HEAD points to, &lt;code>checkout&lt;/code> will move HEAD itself to point to another branch.&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>
+&lt;p>Git reset&lt;/p>
+&lt;p>&amp;ndash;soft
+&amp;ndash;mixed
+&amp;ndash;hard&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">classDiagram
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> class HEAD
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> HEAD : file.txt
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> class Index
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Index : file.txt
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> class WorkingDirectory
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> WorkingDirectory : file.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">graph LR;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> HEAD--&amp;gt;Index;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Index--&amp;gt;WorkingDirectory;
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div></description></item><item><title>Archives</title><link>https://alican.de/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://alican.de/archives/</guid><description/></item><item><title/><link>https://alican.de/docs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/docs/</guid><description>&lt;h1 id="welcome-to-alicande">Welcome to alican.de&lt;/h1>
@@ -142,7 +231,25 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;li>3d printing&lt;/li>
 &lt;li>coffee&lt;/li>
 &lt;li>woodworking&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://alican.de/helm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/helm/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;/ul></description></item><item><title/><link>https://alican.de/neovim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/neovim/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> vimtutor
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> nvim +Tutor
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>About</title><link>https://alican.de/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/about/</guid><description>&lt;img src="https://alican.de/about/coding.jpg" alt="Featured image of post About" />&lt;p>My name is Alican Toprak and I&amp;rsquo;m a passionate software developer based in Frankfurt/Germany.&lt;/p>
+&lt;p>I&amp;rsquo;m currently working as a Senior Software Engineer at &lt;a class="link" href="https://www.adesso.de/de/" target="_blank" rel="noopener"
+>Adesso SE&lt;/a> and beside that I&amp;rsquo;m interested in cooking, coffee brewing, woodworking and bicycling. And this is my personal web page and where I try to publish all my findings and thoughts for everyone.&lt;/p></description></item><item><title>Categories</title><link>https://alican.de/categories/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/categories/</guid><description/></item><item><title>Helm</title><link>https://alican.de/helm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/helm/</guid><description>&lt;img src="https://alican.de/image.jpg" alt="Featured image of post Helm" />&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
@@ -150,7 +257,25 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">$ helm install -f myvalues.yaml myredis ./redis
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title/><link>https://alican.de/homebrew/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/homebrew/</guid><description>&lt;pre>&lt;code>Homebrew is the easiest and most flexible way to install the UNIX tools
+&lt;/div></description></item><item><title>Kubernetes</title><link>https://alican.de/kubernetes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/kubernetes/</guid><description>&lt;img src="https://alican.de/kubernetes.jpg" alt="Featured image of post Kubernetes" />&lt;h1 id="forward-a-local-port-to-a-port-on-the-pod">Forward a local port to a port on the Pod&lt;/h1>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl port-forward service/app 8080:8080
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>This will run new test pod and give you &lt;code>sh&lt;/code> within that pod:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl run -it --rm &lt;span class="nb">test&lt;/span> --image&lt;span class="o">=&lt;/span>busybox --restart&lt;span class="o">=&lt;/span>Never -- sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Search</title><link>https://alican.de/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/search/</guid><description/></item><item><title>Titel</title><link>https://alican.de/slug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/slug/</guid><description>&lt;img src="https://alican.de/image.jpg" alt="Featured image of post Titel" />&lt;pre>&lt;code>Homebrew is the easiest and most flexible way to install the UNIX tools
 Apple didn´t include with macOS. It can also install software not
 packaged for your Linux distribution to your home directory without
 requiring sudo.
@@ -220,79 +345,68 @@ requiring sudo.
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title/><link>https://alican.de/neovim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/neovim/</guid><description>&lt;p>Test10s&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> vimtutor
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item><item><title/><link>https://alican.de/setup-your-macos-terminal-warp+starship+zsh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/setup-your-macos-terminal-warp+starship+zsh/</guid><description>&lt;p>Homebrew installieren&lt;/p>
-&lt;p>&lt;a class="link" href="https://starship.rs/" target="_blank" rel="noopener"
->Starship&lt;/a> ist ein Shell-Prompt der in Rust geschrieben ist, super schnell ist und für macOS, Windows und Linux verfügbar ist.&lt;/p>
-&lt;h2 id="starship-installieren">Starship installieren&lt;/h2>
-&lt;p>Install the latest version for your system:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">curl -sS https://starship.rs/install.sh &lt;span class="p">|&lt;/span> sh
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>oder&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">brew install starship
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="oh-my-zsh">Oh-my-zsh&lt;/h2>
-&lt;p>Oh My Zsh is an open source, community-driven framework for managing your &lt;a class="link" href="https://www.zsh.org/" target="_blank" rel="noopener"
->zsh&lt;/a> configuration.&lt;/p>
-&lt;h3 id="installation">Installation&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sh -c &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="k">$(&lt;/span>curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh&lt;span class="k">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">**_NOTE: elements in zsh arrays are separated by whitespace (spaces, tabs, newlines...). DO NOT use commas._**
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>List of plugins:&lt;/p>
-&lt;p>&lt;a class="link" href="https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins-Overview" target="_blank" rel="noopener"
->https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins-Overview&lt;/a>&lt;/p>
-&lt;h2 id="add-environment-path-in-zsh">Add environment path in zsh&lt;/h2>
+&lt;/table></description></item><item><title>Titel</title><link>https://alican.de/slug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/slug/</guid><description>&lt;img src="https://alican.de/terminal.jpg" alt="Featured image of post Titel" />&lt;h1 id="ssh">SSH&lt;/h1>
+&lt;p>Generate a Private/Pub-Key with et25519 and a Comment.&lt;/p>
+&lt;p>&lt;code>ssh-keygen -t ed25519 -f ~/.ssh/alican.ed25519 -C &amp;quot;Key for my homeserver&amp;quot;&lt;/code>&lt;/p>
+&lt;p>Transfer the pub key to remote host. Typicall its located at &lt;code>/home/$USERNAME/.ssh/&lt;/code>&lt;/p>
+&lt;p>&lt;code>ssh-copy-id -i ~/.ssh/alican.ed25519.pub alican@example.com&lt;/code>&lt;/p>
+&lt;p>If you the ssh keys manually, be sure that the files have the correct permissions:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># append&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">path&lt;/span>&lt;span class="o">+=(&lt;/span>&lt;span class="s1">&amp;#39;/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin&amp;#39;&lt;/span>&lt;span class="o">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># or prepend&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">path&lt;/span>&lt;span class="o">=(&lt;/span>&lt;span class="s1">&amp;#39;/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin&amp;#39;&lt;/span> &lt;span class="nv">$path&lt;/span>&lt;span class="o">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># export to sub-processes (make it inherited by child processes)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> PATH
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">chmod 700 .ssh
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">chmod 600 ~/.ssh/authorized_keys
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title/><link>https://alican.de/templates/post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/templates/post/</guid><description/></item><item><title/><link>https://alican.de/templates/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/templates/test/</guid><description/></item><item><title>About</title><link>https://alican.de/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/about/</guid><description>&lt;img src="https://alican.de/about/coding.jpg" alt="Featured image of post About" />&lt;p>My name is Alican Toprak and I&amp;rsquo;m a passionate software developer based in Frankfurt/Germany.&lt;/p>
-&lt;p>I&amp;rsquo;m currently working as a Senior Software Engineer at &lt;a class="link" href="https://www.adesso.de/de/" target="_blank" rel="noopener"
->Adesso SE&lt;/a> and beside that I&amp;rsquo;m interested in cooking, coffee brewing, woodworking and bicycling. And this is my personal web page and where I try to publish all my findings and thoughts for everyone.&lt;/p></description></item><item><title>Categories</title><link>https://alican.de/categories/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/categories/</guid><description/></item><item><title>Search</title><link>https://alican.de/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/search/</guid><description/></item></channel></rss>
+&lt;/div>&lt;p>Login SSH with an explicit key
+ssh -i ~/.ssh/alican.ed25519 &lt;a class="link" href="mailto:alican@example.com" >alican@example.com&lt;/a>&lt;/p>
+&lt;p>Deaktivate password authentication.
+Open the config &lt;code>/etc/ssh/sshd_config&lt;/code> and edit following lines like this:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">PasswordAuthentication no
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ChallengeResponseAuthentication no
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Restart the SSH server to apply the changes&lt;/p>
+&lt;p>&lt;code>systemctl restart ssh&lt;/code>&lt;/p>
+&lt;p>Save remote Hosts on your local client at &lt;code>~/.ssh/config&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Host alican.de
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> HostName alican.de
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> User alican
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> IdentityFile ~/.ssh/alican.ed25519
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Host klipper
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> HostName 192.168.178.42
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> User pi
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Port 2000
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> LocalForward 80 localhost:8080
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> IdentityFile ~/.ssh/klipper.ed25519
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Now just run the ssh command like this&lt;/p>
+&lt;p>&lt;code> ssh alican.de&lt;/code>&lt;/p></description></item></channel></rss>
