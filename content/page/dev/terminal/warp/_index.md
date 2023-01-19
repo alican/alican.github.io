@@ -5,7 +5,7 @@ toc: false
 image: image.jpg
 readingTime: false
 date: 2023-01-17, 10:43h
-categories: [dev]   
+categories: [dev, Terminal]   
 
 ---	
 

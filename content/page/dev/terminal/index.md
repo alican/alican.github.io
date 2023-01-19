@@ -1,11 +1,11 @@
 ---
 title: "Terminal"
-slug: "slug"
-toc: false
+slug: "termial"
+toc: true
 image: terminal.png
 readingTime: false
-date: 2023-01-17, 10:29h
-categories: [dev, terminal]   
+date: 2023-01-17T22:48:08+02:00
+categories: [dev, Terminal]   
 draft: false
 ---	
 
@@ -13,6 +13,7 @@ draft: false
 
 # SSH
 
+## Generate Private/Pub-Keys
 Generate a Private/Pub-Key with et25519 and a Comment.
 
 ```ssh-keygen -t ed25519 -f ~/.ssh/alican.ed25519 -C "Key for my homeserver"```
@@ -44,7 +45,7 @@ Restart the SSH server to apply the changes
 
 Save remote Hosts on your local client at  ```~/.ssh/config```
 
-```
+```bash
 Host alican.de
      HostName alican.de
      User alican
@@ -61,6 +62,8 @@ Host klipper
 
 Now just run the ssh command like this
 
-``` ssh alican.de```
+```bash
+ssh alican.de
+```
 
 
