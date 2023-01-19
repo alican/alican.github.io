@@ -16,32 +16,45 @@ draft: false
 ## Generate Private/Pub-Keys
 Generate a Private/Pub-Key with et25519 and a Comment.
 
-```ssh-keygen -t ed25519 -f ~/.ssh/alican.ed25519 -C "Key for my homeserver"```
+```bash
+ssh-keygen -t ed25519 -f ~/.ssh/alican.ed25519 -C "Key for my homeserver"
+```
 
-Transfer the pub key to remote host. Typicall its located at ```/home/$USERNAME/.ssh/```
+Transfer the pub key to remote host. Typicall its located at 
 
-```ssh-copy-id -i ~/.ssh/alican.ed25519.pub alican@example.com```
+```bash
+/home/$USERNAME/.ssh/
+```
+
+```bash
+ssh-copy-id -i ~/.ssh/alican.ed25519.pub alican@example.com
+```
 
 If you the ssh keys manually, be sure that the files have the correct permissions:
 
-```
+```bash
 chmod 700 .ssh
 chmod 600 ~/.ssh/authorized_keys
 ```
 
 Login SSH with an explicit key
+
+```bash
 ssh -i ~/.ssh/alican.ed25519 alican@example.com
+```
 
 Deaktivate password authentication. 
 Open the config ```/etc/ssh/sshd_config``` and edit following lines like this:
 
-```
+```bash
 PasswordAuthentication no
 ChallengeResponseAuthentication no
 ```
 Restart the SSH server to apply the changes
 
-```systemctl restart ssh```
+```bash
+systemctl restart ssh
+```
 
 Save remote Hosts on your local client at  ```~/.ssh/config```
 
