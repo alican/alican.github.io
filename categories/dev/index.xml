@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development on Alican Toprak</title><link>https://alican.de/categories/dev/</link><description>Recent content in Development on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://alican.de/categories/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Obsidian</title><link>https://alican.de/obsidian/</link><pubDate>Wed, 11 Jan 2023 22:48:08 +0200</pubDate><guid>https://alican.de/obsidian/</guid><description>&lt;img src="https://alican.de/obsidian/obsidian.jpg" alt="Featured image of post Obsidian" />&lt;h2 id="mobile-app-iosandroid-synchronization-with-git">Mobile App (iOS/Android) synchronization with git&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development on Alican Toprak</title><link>https://alican.de/categories/dev/</link><description>Recent content in Development on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://alican.de/categories/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Terminal</title><link>https://alican.de/termial/</link><pubDate>Tue, 17 Jan 2023 22:48:08 +0200</pubDate><guid>https://alican.de/termial/</guid><description>&lt;img src="https://alican.de/termial/terminal.png" alt="Featured image of post Terminal" />&lt;h1 id="ssh">SSH&lt;/h1>
+&lt;h2 id="generate-privatepub-keys">Generate Private/Pub-Keys&lt;/h2>
+&lt;p>Generate a Private/Pub-Key with et25519 and a Comment.&lt;/p>
+&lt;p>&lt;code>ssh-keygen -t ed25519 -f ~/.ssh/alican.ed25519 -C &amp;quot;Key for my homeserver&amp;quot;&lt;/code>&lt;/p>
+&lt;p>Transfer the pub key to remote host. Typicall its located at &lt;code>/home/$USERNAME/.ssh/&lt;/code>&lt;/p>
+&lt;p>&lt;code>ssh-copy-id -i ~/.ssh/alican.ed25519.pub alican@example.com&lt;/code>&lt;/p>
+&lt;p>If you the ssh keys manually, be sure that the files have the correct permissions:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">chmod 700 .ssh
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">chmod 600 ~/.ssh/authorized_keys
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Login SSH with an explicit key
+ssh -i ~/.ssh/alican.ed25519 &lt;a class="link" href="mailto:alican@example.com" >alican@example.com&lt;/a>&lt;/p>
+&lt;p>Deaktivate password authentication.
+Open the config &lt;code>/etc/ssh/sshd_config&lt;/code> and edit following lines like this:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">PasswordAuthentication no
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ChallengeResponseAuthentication no
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Restart the SSH server to apply the changes&lt;/p>
+&lt;p>&lt;code>systemctl restart ssh&lt;/code>&lt;/p>
+&lt;p>Save remote Hosts on your local client at &lt;code>~/.ssh/config&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">Host alican.de
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> HostName alican.de
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> User alican
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> IdentityFile ~/.ssh/alican.ed25519
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Host klipper
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> HostName 192.168.178.42
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> User pi
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Port &lt;span class="m">2000&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> LocalForward &lt;span class="m">80&lt;/span> localhost:8080
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> IdentityFile ~/.ssh/klipper.ed25519
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Now just run the ssh command like this&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ssh alican.de
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Obsidian</title><link>https://alican.de/obsidian/</link><pubDate>Wed, 11 Jan 2023 22:48:08 +0200</pubDate><guid>https://alican.de/obsidian/</guid><description>&lt;img src="https://alican.de/obsidian/obsidian.jpg" alt="Featured image of post Obsidian" />&lt;h2 id="mobile-app-iosandroid-synchronization-with-git">Mobile App (iOS/Android) synchronization with git&lt;/h2>
 &lt;p>You don&amp;rsquo;t need the premium sync function of the app or another app like a git client to backup and sync- your fault. The Obsidian Git plugin is also available for mobile and gives everything you need to synchronize your Obsidian fault between different mobile and desktop devices.&lt;/p>
 &lt;h3 id="install-obsidian-mobile">Install Obsidian Mobile&lt;/h3>
 &lt;ul>
@@ -187,68 +260,4 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Terminal</title><link>https://alican.de/slug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/slug/</guid><description>&lt;img src="https://alican.de/slug/terminal.png" alt="Featured image of post Terminal" />&lt;h1 id="ssh">SSH&lt;/h1>
-&lt;p>Generate a Private/Pub-Key with et25519 and a Comment.&lt;/p>
-&lt;p>&lt;code>ssh-keygen -t ed25519 -f ~/.ssh/alican.ed25519 -C &amp;quot;Key for my homeserver&amp;quot;&lt;/code>&lt;/p>
-&lt;p>Transfer the pub key to remote host. Typicall its located at &lt;code>/home/$USERNAME/.ssh/&lt;/code>&lt;/p>
-&lt;p>&lt;code>ssh-copy-id -i ~/.ssh/alican.ed25519.pub alican@example.com&lt;/code>&lt;/p>
-&lt;p>If you the ssh keys manually, be sure that the files have the correct permissions:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">chmod 700 .ssh
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">chmod 600 ~/.ssh/authorized_keys
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Login SSH with an explicit key
-ssh -i ~/.ssh/alican.ed25519 &lt;a class="link" href="mailto:alican@example.com" >alican@example.com&lt;/a>&lt;/p>
-&lt;p>Deaktivate password authentication.
-Open the config &lt;code>/etc/ssh/sshd_config&lt;/code> and edit following lines like this:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">PasswordAuthentication no
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ChallengeResponseAuthentication no
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Restart the SSH server to apply the changes&lt;/p>
-&lt;p>&lt;code>systemctl restart ssh&lt;/code>&lt;/p>
-&lt;p>Save remote Hosts on your local client at &lt;code>~/.ssh/config&lt;/code>&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Host alican.de
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> HostName alican.de
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> User alican
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> IdentityFile ~/.ssh/alican.ed25519
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Host klipper
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> HostName 192.168.178.42
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> User pi
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Port 2000
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> LocalForward 80 localhost:8080
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> IdentityFile ~/.ssh/klipper.ed25519
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Now just run the ssh command like this&lt;/p>
-&lt;p>&lt;code> ssh alican.de&lt;/code>&lt;/p></description></item></channel></rss>
+&lt;/table></description></item></channel></rss>

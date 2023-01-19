@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>terminal on Alican Toprak</title><link>https://alican.de/categories/terminal/</link><description>Recent content in terminal on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://alican.de/categories/terminal/index.xml" rel="self" type="application/rss+xml"/><item><title>Terminal</title><link>https://alican.de/slug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/slug/</guid><description>&lt;img src="https://alican.de/slug/terminal.png" alt="Featured image of post Terminal" />&lt;h1 id="ssh">SSH&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terminal on Alican Toprak</title><link>https://alican.de/categories/terminal/</link><description>Recent content in Terminal on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://alican.de/categories/terminal/index.xml" rel="self" type="application/rss+xml"/><item><title>Terminal</title><link>https://alican.de/termial/</link><pubDate>Tue, 17 Jan 2023 22:48:08 +0200</pubDate><guid>https://alican.de/termial/</guid><description>&lt;img src="https://alican.de/termial/terminal.png" alt="Featured image of post Terminal" />&lt;h1 id="ssh">SSH&lt;/h1>
+&lt;h2 id="generate-privatepub-keys">Generate Private/Pub-Keys&lt;/h2>
 &lt;p>Generate a Private/Pub-Key with et25519 and a Comment.&lt;/p>
 &lt;p>&lt;code>ssh-keygen -t ed25519 -f ~/.ssh/alican.ed25519 -C &amp;quot;Key for my homeserver&amp;quot;&lt;/code>&lt;/p>
 &lt;p>Transfer the pub key to remote host. Typicall its located at &lt;code>/home/$USERNAME/.ssh/&lt;/code>&lt;/p>
@@ -47,7 +48,7 @@ Open the config &lt;code>/etc/ssh/sshd_config&lt;/code> and edit following lines
 &lt;/span>&lt;span class="lnt">12
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Host alican.de
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">Host alican.de
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> HostName alican.de
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> User alican
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> IdentityFile ~/.ssh/alican.ed25519
@@ -55,11 +56,19 @@ Open the config &lt;code>/etc/ssh/sshd_config&lt;/code> and edit following lines
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Host klipper
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> HostName 192.168.178.42
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> User pi
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Port 2000
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> LocalForward 80 localhost:8080
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Port &lt;span class="m">2000&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> LocalForward &lt;span class="m">80&lt;/span> localhost:8080
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> IdentityFile ~/.ssh/klipper.ed25519
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>Now just run the ssh command like this&lt;/p>
-&lt;p>&lt;code> ssh alican.de&lt;/code>&lt;/p></description></item></channel></rss>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ssh alican.de
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
