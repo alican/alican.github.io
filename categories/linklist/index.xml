@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linklists on Alican Toprak</title><link>https://alican.de/categories/linklist/</link><description>Recent content in Linklists on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://alican.de/categories/linklist/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linklists on Alican Toprak</title><link>https://alican.de/categories/linklist/</link><description>Recent content in Linklists on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://alican.de/categories/linklist/index.xml" rel="self" type="application/rss+xml"/><item><title>Linklist 1</title><link>https://alican.de/p/linklist-1/</link><pubDate>Wed, 25 Jan 2023 09:48:08 +0200</pubDate><guid>https://alican.de/p/linklist-1/</guid><description>&lt;img src="https://alican.de/p/linklist-1/linklist.jpg" alt="Featured image of post Linklist 1" />&lt;h1 id="1-lazyvim">1. LazyVim&lt;/h1>
+&lt;p>&lt;a class="link" href="https://user-images.githubusercontent.com/292349/213446185-2db63fd5-8c84-459c-9f04-e286382d6e80.png" target="_blank" rel="noopener"
+>&lt;img src="https://user-images.githubusercontent.com/292349/213446185-2db63fd5-8c84-459c-9f04-e286382d6e80.png"
+loading="lazy"
+>&lt;/a>&lt;/p>
+&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/LazyVim/LazyVim" target="_blank" rel="noopener"
+>LazyVim&lt;/a>&lt;/strong> is a Neovim setup powered by &lt;a class="link" href="https://github.com/folke/lazy.nvim" target="_blank" rel="noopener"
+>💤 lazy.nvim&lt;/a> to make it easy to customize and extend your config. Rather than having to choose between starting from scratch or using a pre-made distro, LazyVim offers the best of both worlds - the flexibility to tweak your config as needed, along with the convenience of a pre-configured setup.&lt;/p>
+&lt;h1 id="2-learngitbranchingjsorg">2. learngitbranching.js.org&lt;/h1>
+&lt;p>&lt;a class="link" href="https://learngitbranching.js.org/" target="_blank" rel="noopener"
+>Learn Git Branching&lt;/a> is the a visual and interactive way to learn Git with step-by-step demonstrations and challenges.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>NOTE&lt;/strong>
+If you did a mistake, just use &lt;code>undo&lt;/code> and &lt;code>reset&lt;/code> in the console.&lt;/p>
+&lt;hr>
+&lt;h1 id="3-explainshellcom">3. explainshell.com&lt;/h1>
+&lt;p>You get a command from stackoverflow and don&amp;rsquo;t know what it do? Try Explainshell.com. It uses manpages to describe commands, arguments and flags.&lt;/p>
+&lt;p>for example: &lt;a class="link" href="https://explainshell.com/explain?cmd=git%20log%20--oneline%20--graph%20--decorate%20--all#" target="_blank" rel="noopener"
+>https://explainshell.com/explain?cmd=git%20log%20&amp;ndash;oneline%20&amp;ndash;graph%20&amp;ndash;decorate%20&amp;ndash;all#&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://alican.de/p/linklist-1/explainshell.png"
+width="1269"
+height="1072"
+srcset="https://alican.de/p/linklist-1/explainshell_hu63551b70625a37a5944a4bb4be55a880_304716_480x0_resize_box_3.png 480w, https://alican.de/p/linklist-1/explainshell_hu63551b70625a37a5944a4bb4be55a880_304716_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="explainshell.com "
+class="gallery-image"
+data-flex-grow="118"
+data-flex-basis="284px"
+>&lt;/p></description></item></channel></rss>

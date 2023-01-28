@@ -3,7 +3,7 @@
 &lt;p>Generate a Private/Pub-Key with et25519 and a Comment.&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ssh-keygen -t ed25519 -f ~/.ssh/alican.ed25519 -C &lt;span class="s2">&amp;#34;Key for my homeserver&amp;#34;&lt;/span>
@@ -12,7 +12,7 @@
 &lt;/div>&lt;p>Transfer the pub key to remote host. Typicall its located at&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-1-1">&lt;a class="lnlinks" href="#hl-1-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">/home/&lt;span class="nv">$USERNAME&lt;/span>/.ssh/
@@ -20,7 +20,7 @@
 &lt;/div>
 &lt;/div>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-2-1">&lt;a class="lnlinks" href="#hl-2-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ssh-copy-id -i ~/.ssh/alican.ed25519.pub alican@example.com
@@ -29,8 +29,8 @@
 &lt;/div>&lt;p>If you the ssh keys manually, be sure that the files have the correct permissions:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-3-1">&lt;a class="lnlinks" href="#hl-3-1">1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-3-2">&lt;a class="lnlinks" href="#hl-3-2">2&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">chmod &lt;span class="m">700&lt;/span> .ssh
@@ -40,7 +40,7 @@
 &lt;/div>&lt;p>Login SSH with an explicit key&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-4-1">&lt;a class="lnlinks" href="#hl-4-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ssh -i ~/.ssh/alican.ed25519 alican@example.com
@@ -50,8 +50,8 @@
 Open the config &lt;code>/etc/ssh/sshd_config&lt;/code> and edit following lines like this:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-5-1">&lt;a class="lnlinks" href="#hl-5-1">1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-5-2">&lt;a class="lnlinks" href="#hl-5-2">2&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">PasswordAuthentication no
@@ -61,7 +61,7 @@ Open the config &lt;code>/etc/ssh/sshd_config&lt;/code> and edit following lines
 &lt;/div>&lt;p>Restart the SSH server to apply the changes&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-6-1">&lt;a class="lnlinks" href="#hl-6-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">systemctl restart ssh
@@ -70,18 +70,18 @@ Open the config &lt;code>/etc/ssh/sshd_config&lt;/code> and edit following lines
 &lt;/div>&lt;p>Save remote Hosts on your local client at &lt;code>~/.ssh/config&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-7-1">&lt;a class="lnlinks" href="#hl-7-1"> 1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-7-2">&lt;a class="lnlinks" href="#hl-7-2"> 2&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-7-3">&lt;a class="lnlinks" href="#hl-7-3"> 3&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-7-4">&lt;a class="lnlinks" href="#hl-7-4"> 4&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-7-5">&lt;a class="lnlinks" href="#hl-7-5"> 5&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-7-6">&lt;a class="lnlinks" href="#hl-7-6"> 6&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-7-7">&lt;a class="lnlinks" href="#hl-7-7"> 7&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-7-8">&lt;a class="lnlinks" href="#hl-7-8"> 8&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-7-9">&lt;a class="lnlinks" href="#hl-7-9"> 9&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-7-10">&lt;a class="lnlinks" href="#hl-7-10">10&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-7-11">&lt;a class="lnlinks" href="#hl-7-11">11&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-7-12">&lt;a class="lnlinks" href="#hl-7-12">12&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">Host alican.de
@@ -101,7 +101,7 @@ Open the config &lt;code>/etc/ssh/sshd_config&lt;/code> and edit following lines
 &lt;/div>&lt;p>Now just run the ssh command like this&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-8-1">&lt;a class="lnlinks" href="#hl-8-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ssh alican.de
@@ -177,7 +177,7 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;p>Install Git using Homebrew:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">brew install git
@@ -186,7 +186,7 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;/div>&lt;p>Verify the installation was successful:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-1-1">&lt;a class="lnlinks" href="#hl-1-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git --version
@@ -202,8 +202,8 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;/div>
 &lt;/div>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-3-1">&lt;a class="lnlinks" href="#hl-3-1">1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-3-2">&lt;a class="lnlinks" href="#hl-3-2">2&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> git config --global user.email &lt;span class="s2">&amp;#34;git@yourmail&amp;#34;&lt;/span>
@@ -213,7 +213,7 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;/div>&lt;h3 id="set-your-default-text-editor-for-editing-your-commit-messages">Set your default text editor for editing your commit messages&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-4-1">&lt;a class="lnlinks" href="#hl-4-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git config --global core.editor neovim
@@ -227,7 +227,7 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;p>Set osxkeychain as default Credential Storage for your credentials:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-5-1">&lt;a class="lnlinks" href="#hl-5-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git config --global credential.helper osxkeychain
@@ -235,7 +235,7 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;/div>
 &lt;/div>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-6-1">&lt;a class="lnlinks" href="#hl-6-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git credential-osxkeychain
@@ -249,7 +249,7 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;p>Set the Git-Credential-Manager as default Credential Storage for your credentials:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-7-1">&lt;a class="lnlinks" href="#hl-7-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git config --global credential.helper manager
@@ -259,7 +259,7 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;p>Draw a text-based graphical representation of the commit history on the left hand side of the output.&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-8-1">&lt;a class="lnlinks" href="#hl-8-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git log --all --decorate --oneline --graph
