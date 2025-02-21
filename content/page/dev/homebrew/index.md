@@ -4,7 +4,7 @@ slug: "slug"
 toc: false
 image: image.jpg
 readingTime: false
-date: 2023-01-17, 10:37h
+date: 2022-10-17T22:48:08+02:00
 categories: [dev]   
 draft: true
 ---	

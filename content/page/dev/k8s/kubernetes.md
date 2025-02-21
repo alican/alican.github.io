@@ -4,7 +4,7 @@ slug: "kubernetes"
 toc: false
 image: kubernetes.jpg
 readingTime: false
-date: 2023-01-17, 10:33h
+date: 2022-10-17T22:48:08+02:00
 categories: [dev, kubernetes, devops]   
 draft: true
 ---	

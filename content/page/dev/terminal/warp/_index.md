@@ -4,10 +4,14 @@ slug: "setup-your-macos-terminal-warp-starship-zsh"
 toc: false
 image: image.jpg
 readingTime: false
-date: 2023-01-17, 10:43h
+date: 2023-10-17T22:48:08+02:00
 categories: [dev, Terminal]   
 
 ---	
+
+## Install warp
+
+[Install warp for macOS.](https://app.warp.dev/referral/2Y3XEZ)
 
 ## Homebrew installieren
 
