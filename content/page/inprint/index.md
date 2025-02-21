@@ -8,11 +8,31 @@ toc: true
 readingTime: false
 ---
 
-Hi there, I'm Alican Toprak, a driven and passionate software developer based in Frankfurt, Germany. I've always been fascinated by technology and the limitless possibilities it offers, which is why I pursued a career in software engineering.
+Angaben gemäß § 5 TMG
 
-As a Senior Software Engineer at Adesso SE, I have the opportunity to bring my expertise and passion to the table every day. But my interests extend far beyond just software development. I also have a love for cooking, coffee brewing, woodworking, and bicycling. These hobbies allow me to tap into my creative side and explore new avenues of self-expression.
+Alican Toprak
+Wertheimer Str. 17
+60599 Frankfurt
+Deutschland
 
-I've created this personal web page to share my journey with others. From my latest software projects to my latest coffee brewing experiments, I want to inspire others to pursue their own passions and interests. Whether you're interested in technology or just love a good cup of coffee, I hope my site will offer something for everyone.
+Kontakt:
+E-Mail: info@alican.de
 
-So come along for the ride and let's explore what's possible together! I can't wait to connect and share my findings with you.
+Haftung für Inhalte
 
+Als Diensteanbieter bin ich gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG bin ich jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+
+Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werde ich diese Inhalte umgehend entfernen.
+Haftung für Links
+
+Mein Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte ich keinen Einfluss habe. Deshalb kann ich für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
+
+Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werde ich derartige Links umgehend entfernen.
+Urheberrecht
+
+Die durch mich erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+
+Soweit die Inhalte auf dieser Seite nicht von mir erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Solltest du trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitte ich um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werde ich derartige Inhalte umgehend entfernen.
+Datenschutz
+
+Der Schutz deiner persönlichen Daten ist mir wichtig. Informationen zur Verarbeitung personenbezogener Daten sowie zu deinen Rechten findest du in meiner [Datenschutzerklärung].
