@@ -1,16 +1,11 @@
 ---
 
-title: "About"
+title: "Impressum"
 description: ""
-slug: "about"
+slug: "impressum"
 image: coding.jpg
 toc: true
 readingTime: false
-menu:
-    main:
-        weight: -200
-        params:
-            icon: user
 ---
 
 Hi there, I'm Alican Toprak, a driven and passionate software developer based in Frankfurt, Germany. I've always been fascinated by technology and the limitless possibilities it offers, which is why I pursued a career in software engineering.
