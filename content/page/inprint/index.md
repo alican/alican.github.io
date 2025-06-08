@@ -6,17 +6,34 @@ slug: "impressum"
 image: coding.jpg
 toc: true
 readingTime: false
+params:
+  robots:
+    impressum: "noindex, nofollow"
+menu:
+    main:
+        weight: -1
+        params: 
+            icon: section-sign
 ---
 
 Angaben gemäß § 5 TMG
 
-Alican Toprak
-Wertheimer Str. 17
-60599 Frankfurt
-Deutschland
+<span style="unicode-bidi:bidi-override; direction: rtl;">
+<script>document.write('karpoT nacilA');</script><br>
+</span>
+<span style="unicode-bidi:bidi-override; direction: rtl;">
+<script>document.write('71 .rtS remiemhtreW');</script><br>
+</span>
+<span style="unicode-bidi:bidi-override; direction: rtl;">
+<script>document.write('trufknarF 99506');</script><br>
+</span>
+<span style="unicode-bidi:bidi-override; direction: rtl;">
+<script>document.write('dnalhcstueD');</script><br><br>
+</span>
 
-Kontakt:
-E-Mail: info@alican.de
+<span style="unicode-bidi:bidi-override; direction: rtl;"> 
+<script>document.write('ed.nacila@ofni');</script><br>
+</span>
 
 Haftung für Inhalte
 
