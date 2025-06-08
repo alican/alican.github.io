@@ -1,8 +1,8 @@
 ---
 
-title: "Inprint"
+title: "Impressum"
 description: ""
-slug: "inprints"
+slug: "impressum"
 image: coding.jpg
 toc: true
 readingTime: false
