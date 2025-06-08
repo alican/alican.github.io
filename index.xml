@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alican Toprak</title><link>https://alican.de/</link><description>Recent content on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 Jan 2023 09:48:08 +0200</lastBuildDate><atom:link href="https://alican.de/index.xml" rel="self" type="application/rss+xml"/><item><title>Linklist 1</title><link>https://alican.de/p/linklist-1/</link><pubDate>Wed, 25 Jan 2023 09:48:08 +0200</pubDate><guid>https://alican.de/p/linklist-1/</guid><description>&lt;img src="https://alican.de/p/linklist-1/linklist.jpg" alt="Featured image of post Linklist 1" />&lt;h1 id="1-lazyvim">1. LazyVim&lt;/h1>
-&lt;p>&lt;a class="link" href="https://user-images.githubusercontent.com/292349/213446185-2db63fd5-8c84-459c-9f04-e286382d6e80.png" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alican Toprak</title><link>https://alican.de/</link><description>Recent content on Alican Toprak</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 22 Feb 2025 00:02:09 +0100</lastBuildDate><atom:link href="https://alican.de/index.xml" rel="self" type="application/rss+xml"/><item><title>Linklist 1</title><link>https://alican.de/p/linklist-1/</link><pubDate>Wed, 25 Jan 2023 09:48:08 +0200</pubDate><guid>https://alican.de/p/linklist-1/</guid><description>&lt;img src="https://alican.de/p/linklist-1/linklist.jpg" alt="Featured image of post Linklist 1" />&lt;h1 id="1-lazyvim">1. LazyVim
+&lt;/h1>&lt;p>&lt;a class="link" href="https://user-images.githubusercontent.com/292349/213446185-2db63fd5-8c84-459c-9f04-e286382d6e80.png" target="_blank" rel="noopener"
 >&lt;img src="https://user-images.githubusercontent.com/292349/213446185-2db63fd5-8c84-459c-9f04-e286382d6e80.png"
 loading="lazy"
 >&lt;/a>&lt;/p>
 &lt;p>&lt;strong>&lt;a class="link" href="https://github.com/LazyVim/LazyVim" target="_blank" rel="noopener"
 >LazyVim&lt;/a>&lt;/strong> is a Neovim setup powered by &lt;a class="link" href="https://github.com/folke/lazy.nvim" target="_blank" rel="noopener"
 >💤 lazy.nvim&lt;/a> to make it easy to customize and extend your config. Rather than having to choose between starting from scratch or using a pre-made distro, LazyVim offers the best of both worlds - the flexibility to tweak your config as needed, along with the convenience of a pre-configured setup.&lt;/p>
-&lt;h1 id="2-learngitbranchingjsorg">2. learngitbranching.js.org&lt;/h1>
-&lt;p>&lt;a class="link" href="https://learngitbranching.js.org/" target="_blank" rel="noopener"
+&lt;h1 id="2-learngitbranchingjsorg">2. learngitbranching.js.org
+&lt;/h1>&lt;p>&lt;a class="link" href="https://learngitbranching.js.org/" target="_blank" rel="noopener"
 >Learn Git Branching&lt;/a> is the a visual and interactive way to learn Git with step-by-step demonstrations and challenges.&lt;/p>
 &lt;hr>
 &lt;p>&lt;strong>NOTE&lt;/strong>
 If you did a mistake, just use &lt;code>undo&lt;/code> and &lt;code>reset&lt;/code> in the console.&lt;/p>
 &lt;hr>
-&lt;h1 id="3-explainshellcom">3. explainshell.com&lt;/h1>
-&lt;p>You get a command from stackoverflow and don&amp;rsquo;t know what it do? Try Explainshell.com. It uses manpages to describe commands, arguments and flags.&lt;/p>
+&lt;h1 id="3-explainshellcom">3. explainshell.com
+&lt;/h1>&lt;p>You get a command from stackoverflow and don&amp;rsquo;t know what it do? Try Explainshell.com. It uses manpages to describe commands, arguments and flags.&lt;/p>
 &lt;p>for example: &lt;a class="link" href="https://explainshell.com/explain?cmd=git%20log%20--oneline%20--graph%20--decorate%20--all#" target="_blank" rel="noopener"
 >https://explainshell.com/explain?cmd=git%20log%20&amp;ndash;oneline%20&amp;ndash;graph%20&amp;ndash;decorate%20&amp;ndash;all#&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://alican.de/p/linklist-1/explainshell.png"
 width="1269"
 height="1072"
-srcset="https://alican.de/p/linklist-1/explainshell_hu63551b70625a37a5944a4bb4be55a880_304716_480x0_resize_box_3.png 480w, https://alican.de/p/linklist-1/explainshell_hu63551b70625a37a5944a4bb4be55a880_304716_1024x0_resize_box_3.png 1024w"
+srcset="https://alican.de/p/linklist-1/explainshell_hu_e1c67d62f6032306.png 480w, https://alican.de/p/linklist-1/explainshell_hu_14eaa5caeec8db56.png 1024w"
 loading="lazy"
 alt="explainshell.com "
 class="gallery-image"
 data-flex-grow="118"
 data-flex-basis="284px"
->&lt;/p></description></item><item><title>Terminal</title><link>https://alican.de/termial/</link><pubDate>Tue, 17 Jan 2023 22:48:08 +0200</pubDate><guid>https://alican.de/termial/</guid><description>&lt;img src="https://alican.de/termial/terminal.png" alt="Featured image of post Terminal" />&lt;h1 id="ssh">SSH&lt;/h1>
-&lt;h2 id="generate-privatepub-keys">Generate Private/Pub-Keys&lt;/h2>
-&lt;p>Generate a Private/Pub-Key with et25519 and a Comment.&lt;/p>
+>&lt;/p></description></item><item><title>Terminal</title><link>https://alican.de/termial/</link><pubDate>Tue, 17 Jan 2023 22:48:08 +0200</pubDate><guid>https://alican.de/termial/</guid><description>&lt;img src="https://alican.de/termial/terminal.png" alt="Featured image of post Terminal" />&lt;h1 id="ssh">SSH
+&lt;/h1>&lt;h2 id="generate-privatepub-keys">Generate Private/Pub-Keys
+&lt;/h2>&lt;p>Generate a Private/Pub-Key with et25519 and a Comment.&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1">1&lt;/a>
@@ -135,23 +135,23 @@ Open the config &lt;code>/etc/ssh/sshd_config&lt;/code> and edit following lines
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ssh alican.de
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Obsidian</title><link>https://alican.de/obsidian/</link><pubDate>Wed, 11 Jan 2023 22:48:08 +0200</pubDate><guid>https://alican.de/obsidian/</guid><description>&lt;img src="https://alican.de/obsidian/obsidian.jpg" alt="Featured image of post Obsidian" />&lt;h2 id="mobile-app-iosandroid-synchronization-with-git">Mobile App (iOS/Android) synchronization with git&lt;/h2>
-&lt;p>You don&amp;rsquo;t need the premium sync function of the app or another app like a git client to backup and sync- your fault. The Obsidian Git plugin is also available for mobile and gives everything you need to synchronize your Obsidian fault between different mobile and desktop devices.&lt;/p>
-&lt;h3 id="install-obsidian-mobile">Install Obsidian Mobile&lt;/h3>
-&lt;ul>
+&lt;/div></description></item><item><title>Obsidian</title><link>https://alican.de/obsidian/</link><pubDate>Wed, 11 Jan 2023 22:48:08 +0200</pubDate><guid>https://alican.de/obsidian/</guid><description>&lt;img src="https://alican.de/obsidian/obsidian.jpg" alt="Featured image of post Obsidian" />&lt;h2 id="mobile-app-iosandroid-synchronization-with-git">Mobile App (iOS/Android) synchronization with git
+&lt;/h2>&lt;p>You don&amp;rsquo;t need the premium sync function of the app or another app like a git client to backup and sync- your fault. The Obsidian Git plugin is also available for mobile and gives everything you need to synchronize your Obsidian fault between different mobile and desktop devices.&lt;/p>
+&lt;h3 id="install-obsidian-mobile">Install Obsidian Mobile
+&lt;/h3>&lt;ul>
 &lt;li>&lt;a class="link" href="https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442" target="_blank" rel="noopener"
 >Obsidian for iOS&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://play.google.com/store/apps/details?id=md.obsidian" target="_blank" rel="noopener"
 >Obsidian for Android&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h2 id="create-a-git-repository-on-githubcom-for-example">Create a git repository (on github.com for example)&lt;/h2>
-&lt;ol>
+&lt;h2 id="create-a-git-repository-on-githubcom-for-example">Create a git repository (on github.com for example)
+&lt;/h2>&lt;ol>
 &lt;li>Create an empty repository&lt;/li>
 &lt;li>Create a new access token &lt;a class="link" href="https://github.com/settings/tokens" target="_blank" rel="noopener"
 >(Settings-&amp;gt;Developer Settings-&amp;gt;Tokens)&lt;/a> with the Repo scope and copy the token&lt;/li>
 &lt;/ol>
-&lt;h3 id="configure-obsidian">Configure Obsidian&lt;/h3>
-&lt;ol>
+&lt;h3 id="configure-obsidian">Configure Obsidian
+&lt;/h3>&lt;ol>
 &lt;li>Create a new vault in your mobile obsidian app&lt;/li>
 &lt;li>Enter into the new vault&lt;/li>
 &lt;li>Got the Settings-&amp;gt;About-&amp;gt;Advanced and override the config folder to &lt;code>.obsidian.mobile&lt;/code> for example. This avoids misconfigurations when you use the desktop client because some settings and plugins are different on mobile and desktop. You have than two config folders in your Vault.&lt;/li>
@@ -171,15 +171,15 @@ Open the config &lt;code>/etc/ssh/sshd_config&lt;/code> and edit following lines
 &lt;p>&lt;img src="https://alican.de/p/welcome-to-my-blog/editor.png"
 width="2958"
 height="1924"
-srcset="https://alican.de/p/welcome-to-my-blog/editor_hufe7268f6eefdc8dd7a4cc24a9e614e80_1109781_480x0_resize_box_3.png 480w, https://alican.de/p/welcome-to-my-blog/editor_hufe7268f6eefdc8dd7a4cc24a9e614e80_1109781_1024x0_resize_box_3.png 1024w"
+srcset="https://alican.de/p/welcome-to-my-blog/editor_hu_c493457eaf93cca7.png 480w, https://alican.de/p/welcome-to-my-blog/editor_hu_2f9fd18f3afbfb85.png 1024w"
 loading="lazy"
 alt="This page in Obsidian"
 class="gallery-image"
 data-flex-grow="153"
 data-flex-basis="368px"
 >&lt;/p>
-&lt;h2 id="mkdocs-vs-hugo">MkDocs vs Hugo&lt;/h2>
-&lt;p>First I decided to use &lt;a class="link" href="https://www.mkdocs.org/" target="_blank" rel="noopener"
+&lt;h2 id="mkdocs-vs-hugo">MkDocs vs Hugo
+&lt;/h2>&lt;p>First I decided to use &lt;a class="link" href="https://www.mkdocs.org/" target="_blank" rel="noopener"
 >MkDocs&lt;/a>. It is also a static site generator implemented in Python that you feed with Markdown documents, and it generates a HTML page. Configured in YAML and for the HTML templates the &lt;a class="link" href="https://jinja.palletsprojects.com/en/3.1.x/" target="_blank" rel="noopener"
 >Jinja engine&lt;/a> is used. With the help of community-made themes you can quickly get appealing web pages as a result. Probably the most popular theme is &lt;a class="link" href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener"
 >Material for MkDocs &lt;/a>. As the name suggests, it builds on the &lt;a class="link" href="https://m2.material.io/design/" target="_blank" rel="noopener"
@@ -200,9 +200,9 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;li>Using git and markdown workflow to write/edit and deploy your content&lt;/li>
 &lt;li>No maintenance for a CMS like wordpress, no security updates, no bugs, no hacks&lt;/li>
 &lt;li>Third part contribution with pull requests&lt;/li>
-&lt;/ul></description></item><item><title>Git</title><link>https://alican.de/git/</link><pubDate>Mon, 17 Oct 2022 22:48:08 +0200</pubDate><guid>https://alican.de/git/</guid><description>&lt;img src="https://alican.de/git/git.png" alt="Featured image of post Git" />&lt;h2 id="installing-git">Installing Git&lt;/h2>
-&lt;h3 id="install-git-on-macos">Install Git on macOS&lt;/h3>
-&lt;p>Install Git using Homebrew:&lt;/p>
+&lt;/ul></description></item><item><title>Git</title><link>https://alican.de/git/</link><pubDate>Mon, 17 Oct 2022 22:48:08 +0200</pubDate><guid>https://alican.de/git/</guid><description>&lt;img src="https://alican.de/git/git.png" alt="Featured image of post Git" />&lt;h2 id="installing-git">Installing Git
+&lt;/h2>&lt;h3 id="install-git-on-macos">Install Git on macOS
+&lt;/h3>&lt;p>Install Git using Homebrew:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1">1&lt;/a>
@@ -220,9 +220,9 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git --version
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="git-configuration">Git Configuration&lt;/h2>
-&lt;h3 id="configure-your-git-username-and-email">Configure your Git username and email&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h2 id="git-configuration">Git Configuration
+&lt;/h2>&lt;h3 id="configure-your-git-username-and-email">Configure your Git username and email
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
@@ -238,8 +238,8 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> git config --global user.name &lt;span class="s2">&amp;#34;Alican Toprak
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="set-your-default-text-editor-for-editing-your-commit-messages">Set your default text editor for editing your commit messages&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h3 id="set-your-default-text-editor-for-editing-your-commit-messages">Set your default text editor for editing your commit messages
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-4-1">&lt;a class="lnlinks" href="#hl-4-1">1&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
@@ -247,11 +247,11 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git config --global core.editor neovim
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="git-credentials">Git Credentials&lt;/h2>
-&lt;p>More Information about the &lt;a class="link" href="https://git-scm.com/book/sv/v2/Git-Tools-Credential-Storage" target="_blank" rel="noopener"
+&lt;/div>&lt;h2 id="git-credentials">Git Credentials
+&lt;/h2>&lt;p>More Information about the &lt;a class="link" href="https://git-scm.com/book/sv/v2/Git-Tools-Credential-Storage" target="_blank" rel="noopener"
 >Credential Storage&lt;/a>.&lt;/p>
-&lt;h3 id="how-to-use-keychain-on-macos-to-store-git-credentials">How to use KeyChain on macOS to store git credentials&lt;/h3>
-&lt;p>On macOS you can use the KeyChain with &lt;code>git-credential-osxkeychain&lt;/code>. It&amp;rsquo;s automatic installed if you &lt;a class="link" href="obsidian://open?vault=docs&amp;amp;file=page%2Fdev%2Fhomebrew%2Findex" >install git with homebrew&lt;/a>. The osxkeychain mode caches credentials in the secure keychain that’s attached to your system account. This method stores the credentials on disk, and they never expire, but they’re encrypted with the same system that stores HTTPS certificates and Safari auto-fills.&lt;/p>
+&lt;h3 id="how-to-use-keychain-on-macos-to-store-git-credentials">How to use KeyChain on macOS to store git credentials
+&lt;/h3>&lt;p>On macOS you can use the KeyChain with &lt;code>git-credential-osxkeychain&lt;/code>. It&amp;rsquo;s automatic installed if you &lt;a class="link" href="obsidian://open?vault=docs&amp;amp;file=page%2Fdev%2Fhomebrew%2Findex" >install git with homebrew&lt;/a>. The osxkeychain mode caches credentials in the secure keychain that’s attached to your system account. This method stores the credentials on disk, and they never expire, but they’re encrypted with the same system that stores HTTPS certificates and Safari auto-fills.&lt;/p>
 &lt;p>Set osxkeychain as default Credential Storage for your credentials:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -269,10 +269,10 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git credential-osxkeychain
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="how-to-use-the-git-credential-manager-for-windows">How to use the Git Credential Manager for Windows&lt;/h3>
-&lt;p>If you’re using Windows, you can install a helper called “Git Credential Manager for Windows.” This is similar to the “osxkeychain” helper described above, but uses the Windows Credential Store to control sensitive information.&lt;/p>
-&lt;h4 id="installation">Installation&lt;/h4>
-&lt;p>It can be found at &lt;a class="link" href="https://github.com/Microsoft/Git-Credential-Manager-for-Windows" target="_blank" rel="noopener"
+&lt;/div>&lt;h3 id="how-to-use-the-git-credential-manager-for-windows">How to use the Git Credential Manager for Windows
+&lt;/h3>&lt;p>If you’re using Windows, you can install a helper called “Git Credential Manager for Windows.” This is similar to the “osxkeychain” helper described above, but uses the Windows Credential Store to control sensitive information.&lt;/p>
+&lt;h4 id="installation">Installation
+&lt;/h4>&lt;p>It can be found at &lt;a class="link" href="https://github.com/Microsoft/Git-Credential-Manager-for-Windows" target="_blank" rel="noopener"
 >https://github.com/Microsoft/Git-Credential-Manager-for-Windows&lt;/a>.&lt;/p>
 &lt;p>Set the Git-Credential-Manager as default Credential Storage for your credentials:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -283,8 +283,8 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git config --global credential.helper manager
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="representation">Representation&lt;/h3>
-&lt;p>Draw a text-based graphical representation of the commit history on the left hand side of the output.&lt;/p>
+&lt;/div>&lt;h3 id="representation">Representation
+&lt;/h3>&lt;p>Draw a text-based graphical representation of the commit history on the left hand side of the output.&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-8-1">&lt;a class="lnlinks" href="#hl-8-1">1&lt;/a>
@@ -293,17 +293,17 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git log --all --decorate --oneline --graph
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="git-head-vs-index-vs-working-directory">Git Head vs Index vs Working Directory&lt;/h2>
-&lt;p>..&lt;/p>
-&lt;h2 id="git-reset-vs-checkout">Git reset vs checkout&lt;/h2>
-&lt;p>&lt;code>Git reset &lt;/code>and &lt;code>checkout&lt;/code> both updates the HEAD, Index and Working Directory branches.&lt;/p>
+&lt;/div>&lt;h2 id="git-head-vs-index-vs-working-directory">Git Head vs Index vs Working Directory
+&lt;/h2>&lt;p>..&lt;/p>
+&lt;h2 id="git-reset-vs-checkout">Git reset vs checkout
+&lt;/h2>&lt;p>&lt;code>Git reset &lt;/code>and &lt;code>checkout&lt;/code> both updates the HEAD, Index and Working Directory branches.&lt;/p>
 &lt;p>Running &lt;code>git checkout [branch]&lt;/code> is pretty similar to running &lt;code>git reset --hard [branch]&lt;/code> in that it updates all three trees for you to look like &lt;code>[branch]&lt;/code>, but there are two important differences:&lt;/p>
 &lt;ul>
 &lt;li>unlike &lt;code>reset --hard&lt;/code>, &lt;code>checkout&lt;/code> is working-directory safe; it will check to make sure it’s not blowing away files that have changes to them. Actually, it’s a bit smarter than that — it tries to do a trivial merge in the working directory, so all of the files you &lt;em>haven’t&lt;/em> changed will be updated. &lt;code>reset --hard&lt;/code>, on the other hand, will simply replace everything across the board without checking.&lt;/li>
 &lt;li>The second important difference is how &lt;code>checkout&lt;/code> updates HEAD. Whereas &lt;code>reset&lt;/code> will move the branch that HEAD points to, &lt;code>checkout&lt;/code> will move HEAD itself to point to another branch.&lt;/li>
 &lt;/ul>
-&lt;h3 id="git-reset">Git reset&lt;/h3>
-&lt;table>
+&lt;h3 id="git-reset">Git reset
+&lt;/h3>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>flag&lt;/th>
@@ -324,10 +324,10 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Archives</title><link>https://alican.de/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://alican.de/archives/</guid><description/></item><item><title/><link>https://alican.de/docs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/docs/</guid><description>&lt;h1 id="welcome-to-alicande">Welcome to alican.de&lt;/h1>
-&lt;p>Diese Seite wird aus den Markdown dieses Repos generiert und stellt unterschiedliche nützliche Dinge bereit.&lt;/p>
-&lt;h1 id="content">Content&lt;/h1>
-&lt;ul>
+&lt;/table></description></item><item><title>Archives</title><link>https://alican.de/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://alican.de/archives/</guid><description/></item><item><title/><link>https://alican.de/docs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/docs/</guid><description>&lt;h1 id="welcome-to-alicande">Welcome to alican.de
+&lt;/h1>&lt;p>Diese Seite wird aus den Markdown dieses Repos generiert und stellt unterschiedliche nützliche Dinge bereit.&lt;/p>
+&lt;h1 id="content">Content
+&lt;/h1>&lt;ul>
 &lt;li>Terraform&lt;/li>
 &lt;li>Kubernetes/helm&lt;/li>
 &lt;li>docker&lt;/li>
@@ -345,8 +345,8 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;li>typescript&lt;/li>
 &lt;li>nginx&lt;/li>
 &lt;/ul>
-&lt;h2 id="other">other&lt;/h2>
-&lt;ul>
+&lt;h2 id="other">other
+&lt;/h2>&lt;ul>
 &lt;li>3d printing&lt;/li>
 &lt;li>coffee&lt;/li>
 &lt;li>woodworking&lt;/li>
@@ -369,4 +369,21 @@ As software developer you write texts for documentation in your favorite IDE and
 &lt;/div></description></item><item><title>About</title><link>https://alican.de/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/about/</guid><description>&lt;img src="https://alican.de/about/coding.jpg" alt="Featured image of post About" />&lt;p>Hi there, I&amp;rsquo;m Alican Toprak, a driven and passionate software developer based in Frankfurt, Germany. I&amp;rsquo;ve always been fascinated by technology and the limitless possibilities it offers, which is why I pursued a career in software engineering.&lt;/p>
 &lt;p>As a Senior Software Engineer at Adesso SE, I have the opportunity to bring my expertise and passion to the table every day. But my interests extend far beyond just software development. I also have a love for cooking, coffee brewing, woodworking, and bicycling. These hobbies allow me to tap into my creative side and explore new avenues of self-expression.&lt;/p>
 &lt;p>I&amp;rsquo;ve created this personal web page to share my journey with others. From my latest software projects to my latest coffee brewing experiments, I want to inspire others to pursue their own passions and interests. Whether you&amp;rsquo;re interested in technology or just love a good cup of coffee, I hope my site will offer something for everyone.&lt;/p>
-&lt;p>So come along for the ride and let&amp;rsquo;s explore what&amp;rsquo;s possible together! I can&amp;rsquo;t wait to connect and share my findings with you.&lt;/p></description></item><item><title>Categories</title><link>https://alican.de/categories/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/categories/</guid><description/></item><item><title>Search</title><link>https://alican.de/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/search/</guid><description/></item></channel></rss>
+&lt;p>So come along for the ride and let&amp;rsquo;s explore what&amp;rsquo;s possible together! I can&amp;rsquo;t wait to connect and share my findings with you.&lt;/p></description></item><item><title>Categories</title><link>https://alican.de/categories/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/categories/</guid><description/></item><item><title>Impressum</title><link>https://alican.de/impressum/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/impressum/</guid><description>&lt;img src="https://alican.de/impressum/coding.jpg" alt="Featured image of post Impressum" />&lt;p>Angaben gemäß § 5 TMG&lt;/p>
+&lt;p>Alican Toprak
+Wertheimer Str. 17
+60599 Frankfurt
+Deutschland&lt;/p>
+&lt;p>Kontakt:
+E-Mail: &lt;a class="link" href="mailto:info@alican.de" >info@alican.de&lt;/a>&lt;/p>
+&lt;p>Haftung für Inhalte&lt;/p>
+&lt;p>Als Diensteanbieter bin ich gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG bin ich jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.&lt;/p>
+&lt;p>Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werde ich diese Inhalte umgehend entfernen.
+Haftung für Links&lt;/p>
+&lt;p>Mein Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte ich keinen Einfluss habe. Deshalb kann ich für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.&lt;/p>
+&lt;p>Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werde ich derartige Links umgehend entfernen.
+Urheberrecht&lt;/p>
+&lt;p>Die durch mich erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.&lt;/p>
+&lt;p>Soweit die Inhalte auf dieser Seite nicht von mir erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Solltest du trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitte ich um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werde ich derartige Inhalte umgehend entfernen.
+Datenschutz&lt;/p>
+&lt;p>Der Schutz deiner persönlichen Daten ist mir wichtig. Informationen zur Verarbeitung personenbezogener Daten sowie zu deinen Rechten findest du in meiner [Datenschutzerklärung].&lt;/p></description></item><item><title>Search</title><link>https://alican.de/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alican.de/search/</guid><description/></item></channel></rss>
